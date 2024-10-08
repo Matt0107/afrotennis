@@ -1,0 +1,36 @@
+.footer {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer ul li {
+    display: inline;
+  }
+  
+  .footer ul li a {
+    color: var(--primary-white);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer ul li a:hover {
+    color: #ddd;
+  }
+  

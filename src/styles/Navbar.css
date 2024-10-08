@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--primary-black);
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar ul li a {
+    color: var(--primary-white);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    color: var(--secondary-gray);
+  }
+  
+  .nav-logo img {
+    width: 120px; /* Ajuste la taille du logo si nécessaire */
+  }
+  
