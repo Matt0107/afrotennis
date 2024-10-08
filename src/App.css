@@ -7,6 +7,20 @@ body {
   background-color: #fff;
   color: #333;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+.content-wrap {
+  flex: 1; /* Take up remaining space to push footer to the bottom */
+}
 
 a {
   text-decoration: none;
@@ -33,25 +47,28 @@ p {
 /* Navigation Menu (Desktop version) */
 nav.desktop {
   display: flex;
-  justify-content: space-around;
-  list-style: none;
-  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
   background-color: #000;
-  position: relative; /* Desktop menu stays in place */
 }
 
 nav.desktop ul {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  list-style: none;
 }
 
 nav.desktop ul li a {
-  position: relative; /* Nécessaire pour l'animation underline */
-  color: #fff; /* Texte du menu en blanc */
+  position: relative;
+  color: #fff;
   font-weight: 600;
   padding: 10px;
   transition: color 0.3s ease;
+}
+
+nav.desktop ul li a:hover {
+  color: #ddd;
 }
 
 nav.desktop ul li a::after {
@@ -61,40 +78,42 @@ nav.desktop ul li a::after {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #fff; /* Soulignement en blanc */
-  transition: width 0.3s ease; /* Animation de la largeur */
-}
-
-nav.desktop ul li a:hover {
-  color: #ddd;
+  background-color: #fff;
+  transition: width 0.3s ease;
 }
 
 nav.desktop ul li a:hover::after {
-  width: 100%; /* Soulignement qui s'étend sous le texte */
+  width: 100%;
+}
+
+.nav-logo img {
+  width: 120px; /* Adjust size as needed */
 }
 
 /* Full-screen menu (Mobile version) */
 nav.mobile {
   position: fixed;
   top: 0;
-  right: -100%; /* Hidden off-screen by default */
+  right: -100%;
   width: 100%;
   height: 100%;
   background-color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: right 0.5s ease; /* Smooth sliding transition */
+  transition: right 0.5s ease;
+  z-index: 1; /* Ensure the menu is above other elements */
 }
 
 nav.mobile.open {
-  right: 0; /* Slide the menu in from the right */
+  right: 0;
 }
 
 nav.mobile ul {
   list-style: none;
   text-align: center;
   flex-direction: column;
+  z-index: 2; /* Ensure the text is above the background logo */
 }
 
 nav.mobile ul li {
@@ -103,14 +122,32 @@ nav.mobile ul li {
 
 nav.mobile ul li a {
   color: #fff;
-  font-size: 24px;
+  font-size: 22px; /* Reduce font size for mobile */
   font-weight: 600;
   text-transform: uppercase;
   padding: 10px;
+  z-index: 2; /* Ensure that the text is always on top */
 }
 
 nav.mobile ul li a:hover {
   color: #ddd;
+}
+
+/* Add a blur effect to the logo background */
+nav.mobile::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/images/logo-white.png'); /* Ensure the correct image path */
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(2.5px); /* Blur effect */
+  opacity: 0.2; /* Slightly increase opacity for better visibility */
+  z-index: 1; /* Ensure the blur effect is behind the text */
 }
 
 /* Layout Styles */
@@ -125,16 +162,47 @@ header {
   text-align: center;
 }
 
-footer {
-  background-color: #000;
-  color: #fff;
+/* Footer Styles */
+.footer {
+  background-color: #000; /* Black background to match the rest of the design */
+  color: #fff; /* White text */
   text-align: center;
-  padding: 40px 20px;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+  color: #ddd; /* Lighten the color on hover */
 }
 
 /* Hamburger Menu Style */
 .hamburger {
-  display: none; /* Hidden by default on larger screens */
+  display: none;
   font-size: 30px;
   background: none;
   border: none;
@@ -147,23 +215,18 @@ footer {
   z-index: 1000;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .hamburger {
-    display: block; /* Show hamburger on mobile */
+    display: block;
   }
 
   nav.desktop {
-    display: none; /* Hide the desktop menu on mobile */
+    display: none;
   }
 
   nav.mobile ul {
     flex-direction: column;
     align-items: center;
-  }
-
-  nav.mobile.open ul {
-    display: flex; /* Show the full-screen menu on mobile */
   }
 
   nav.mobile ul li {
@@ -172,6 +235,10 @@ footer {
 
   .container {
     width: 95%;
+  }
+  .footer ul {
+    flex-direction: column;
+    gap: 10px;
   }
 
   h1 {
@@ -182,3 +249,4 @@ footer {
     font-size: 16px;
   }
 }
+
