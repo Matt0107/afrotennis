@@ -1,38 +1,184 @@
-.App {
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Container for content */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navigation Menu (Desktop version) */
+nav.desktop {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 20px;
+  background-color: #000;
+  position: relative; /* Desktop menu stays in place */
+}
+
+nav.desktop ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+nav.desktop ul li a {
+  position: relative; /* Nécessaire pour l'animation underline */
+  color: #fff; /* Texte du menu en blanc */
+  font-weight: 600;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+nav.desktop ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff; /* Soulignement en blanc */
+  transition: width 0.3s ease; /* Animation de la largeur */
+}
+
+nav.desktop ul li a:hover {
+  color: #ddd;
+}
+
+nav.desktop ul li a:hover::after {
+  width: 100%; /* Soulignement qui s'étend sous le texte */
+}
+
+/* Full-screen menu (Mobile version) */
+nav.mobile {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Hidden off-screen by default */
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: right 0.5s ease; /* Smooth sliding transition */
+}
+
+nav.mobile.open {
+  right: 0; /* Slide the menu in from the right */
+}
+
+nav.mobile ul {
+  list-style: none;
+  text-align: center;
+  flex-direction: column;
+}
+
+nav.mobile ul li {
+  margin: 20px 0;
+}
+
+nav.mobile ul li a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+nav.mobile ul li a:hover {
+  color: #ddd;
+}
+
+/* Layout Styles */
+section {
+  padding: 40px 0;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 80px 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Hamburger Menu Style */
+.hamburger {
+  display: none; /* Hidden by default on larger screens */
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #000;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; /* Show hamburger on mobile */
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  nav.desktop {
+    display: none; /* Hide the desktop menu on mobile */
   }
-  to {
-    transform: rotate(360deg);
+
+  nav.mobile ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav.mobile.open ul {
+    display: flex; /* Show the full-screen menu on mobile */
+  }
+
+  nav.mobile ul li {
+    margin: 10px 0;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
   }
 }
