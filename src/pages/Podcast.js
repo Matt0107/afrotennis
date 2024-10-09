@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Podcasts.css'; // Importation des styles spécifiques
+import '../styles/Podcast.css'; // Importation des styles spécifiques
 import Modal from 'react-modal'; // Utilisation d'une modal pour le lecteur YouTube
 
 Modal.setAppElement('#root'); // Spécifie l'élément racine pour la modal
@@ -31,7 +31,7 @@ const Podcast = () => {
     <div className="podcast-page">
       {/* Section d'introduction */}
       <section className="podcast-intro">
-        <h1>Our Podcasts</h1>
+        <h1>Our AfroTennis Podcast</h1>
         <p>Explore our collection of podcasts featuring exclusive interviews, insights, and stories from the world of African tennis.</p>
       </section>
 
@@ -45,7 +45,7 @@ const Podcast = () => {
                 alt={video.title}
                 className="video-thumbnail"
               />
-              <h3>{video.title}</h3>
+              <h3 className="podcast-video-title">{video.title}</h3>
             </div>
           ))}
         </div>

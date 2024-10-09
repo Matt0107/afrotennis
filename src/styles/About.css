@@ -8,7 +8,7 @@
 .about-parallax {
     position: relative;
     background-image: url('../assets/images/reunion.jpg'); /* Image de fond */
-    background-attachment: fixed; /* Effet parallaxe */
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -17,13 +17,13 @@
     align-items: center;
     color: var(--primary-white);
     text-align: center;
-    z-index: 1; /* Assure que le parallaxe ne masque pas le burger menu */
+    z-index: 1;
 }
 
 .parallax-content {
-    z-index: 2; /* S'assurer que le contenu est au-dessus de l'image */
+    z-index: 2;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Overlay sombre pour une meilleure lisibilité */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .parallax-content h2 {
@@ -64,21 +64,21 @@
     flex: 1;
     max-width: 250px;
     opacity: 0;
-    transform: translateX(0); /* Pas de mouvement sans la classe */
+    transform: translateX(0);
     transition: opacity 0.3s ease-out, transform 1s ease-out;
 }
 
 .team-member:first-child {
-    transform: translateX(-100%); /* Commence hors écran à gauche */
+    transform: translateX(-100%);
 }
 
 .team-member:last-child {
-    transform: translateX(100%); /* Commence hors écran à droite */
+    transform: translateX(100%);
 }
 
 .team-member.animate-slide {
     opacity: 1;
-    transform: translateX(0); /* Coulisse au centre */
+    transform: translateX(0);
 }
 
 .team-member img {
@@ -112,7 +112,7 @@ nav.mobile {
     justify-content: center;
     align-items: center;
     transition: right 0.5s ease;
-    z-index: 999; /* Priorité du menu burger sur tout le reste */
+    z-index: 999;
 }
 
 nav.mobile.open {
@@ -122,11 +122,14 @@ nav.mobile.open {
 /* Responsive Design */
 @media (max-width: 768px) {
     .team-grid {
-        flex-wrap: wrap; /* Permet aux éléments de s'empiler en mobile */
+        flex-direction: column; /* Change pour disposition en colonne */
+        align-items: center; /* Centre les éléments */
     }
 
     .team-member {
-        width: 100%;
+        width: 100%; /* Les éléments prennent toute la largeur en mobile */
+        opacity: 1;
+        transform: translateX(0); /* Annule les transformations */
     }
 
     .parallax-content h2 {
@@ -135,5 +138,9 @@ nav.mobile.open {
 
     .parallax-content p {
         font-size: 1.2rem;
+    }
+
+    .about-parallax {
+        background-attachment: scroll;
     }
 }
