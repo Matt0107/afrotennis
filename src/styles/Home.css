@@ -49,18 +49,17 @@
   background-color: #e05b2d;
 }
 
-/* About Section */
-.about {
-  padding: 40px 20px;
+/* Home About Section */
+.home-about {
   text-align: center;
 }
 
-.about h2 {
+.home-about h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-.about p {
+.home-about p {
   max-width: 700px;
   margin: 0 auto;
   font-size: 1.25rem;

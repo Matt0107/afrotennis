@@ -14,9 +14,9 @@ const Home = () => {
       </section>
 
       {/* About Section */}
-      <section className="about">
-        <h2>About AfroTennis</h2>
-        <p>AfroTennis is dedicated to promoting tennis across Africa, showcasing the talent, stories, and efforts driving the sport forward.</p>
+      <section className="home-about">
+        <h2>AfroTennis Goals</h2>
+        <p>Promoting tennis across Africa, showcasing the talents, stories and efforts driving the sport forward.</p>
       </section>
 
       {/* Highlighted Sections */}

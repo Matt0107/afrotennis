@@ -1,0 +1,139 @@
+/* About Section */
+.about-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Parallax Section */
+.about-parallax {
+    position: relative;
+    background-image: url('../assets/images/reunion.jpg'); /* Image de fond */
+    background-attachment: fixed; /* Effet parallaxe */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-white);
+    text-align: center;
+    z-index: 1; /* Assure que le parallaxe ne masque pas le burger menu */
+}
+
+.parallax-content {
+    z-index: 2; /* S'assurer que le contenu est au-dessus de l'image */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay sombre pour une meilleure lisibilité */
+}
+
+.parallax-content h2 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.parallax-content p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Team Section */
+.team {
+    padding: 60px 20px;
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+}
+
+.team h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.team-member {
+    text-align: center;
+    flex: 1;
+    max-width: 250px;
+    opacity: 0;
+    transform: translateX(0); /* Pas de mouvement sans la classe */
+    transition: opacity 0.3s ease-out, transform 1s ease-out;
+}
+
+.team-member:first-child {
+    transform: translateX(-100%); /* Commence hors écran à gauche */
+}
+
+.team-member:last-child {
+    transform: translateX(100%); /* Commence hors écran à droite */
+}
+
+.team-member.animate-slide {
+    opacity: 1;
+    transform: translateX(0); /* Coulisse au centre */
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 1.1rem;
+    color: var(--secondary-gray);
+}
+
+/* Menu Mobile */
+nav.mobile {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: right 0.5s ease;
+    z-index: 999; /* Priorité du menu burger sur tout le reste */
+}
+
+nav.mobile.open {
+    right: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team-grid {
+        flex-wrap: wrap; /* Permet aux éléments de s'empiler en mobile */
+    }
+
+    .team-member {
+        width: 100%;
+    }
+
+    .parallax-content h2 {
+        font-size: 2rem;
+    }
+
+    .parallax-content p {
+        font-size: 1.2rem;
+    }
+}
