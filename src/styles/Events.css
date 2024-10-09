@@ -1,0 +1,115 @@
+/* Styles globaux */
+.events-page {
+    padding: 40px 20px;
+  }
+  
+  .afrotennis-party {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .party-banner img {
+    width: 100%;
+    max-width: 800px; /* Réduit la taille maximale de l'image */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .party-content {
+    margin-top: 20px;
+  }
+  
+  .party-content h1 {
+    font-size: 3rem;
+    color: var(--primary-black);
+  }
+  
+  .party-content p {
+    font-size: 1.5rem;
+    color: var(--primary-black);
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    background-color: var(--primary-orange);
+    color: var(--primary-white);
+    padding: 12px 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: var(--hover-orange);
+  }
+  
+  .afrotennis-party .dates-unavailable {
+    font-size: 1.2rem;
+    color: var(--primary-orange);
+    margin-top: 20px;
+  }
+  
+  
+  /* Section Tournois Pro */
+  .pro-tournaments {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .pro-tournaments h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--primary-black);
+  }
+  
+  .tournament-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .tournament-table th,
+  .tournament-table td {
+    padding: 12px 15px;
+    border: 1px solid var(--primary-black);
+  }
+  
+  .tournament-table th {
+    background-color: var(--primary-orange);
+    color: var(--primary-white);
+    text-transform: uppercase;
+  }
+  
+  .tournament-table td {
+    color: var(--primary-black);
+    background-color: var(--secondary-gray);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .party-banner img {
+      width: 100%;
+      max-width: 100%; /* Assure que l'image reste responsive */
+    }
+  
+    .party-content h1 {
+      font-size: 2rem;
+    }
+  
+    .party-content p {
+      font-size: 1.2rem;
+    }
+  
+    .cta-button {
+      padding: 10px 20px;
+    }
+  
+    .tournament-table th, .tournament-table td {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  }
+  

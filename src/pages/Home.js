@@ -22,7 +22,7 @@ const Home = () => {
       {/* Highlighted Sections */}
       <section className="highlights">
         <div className="highlight">
-          <h3>Podcasts</h3>
+          <h3>Podcast</h3>
           <p>Catch up on the latest interviews and insights from the world of African tennis.</p>
           <a href="/podcasts" className="cta-link">Listen Now</a>
         </div>
