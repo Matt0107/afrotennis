@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import '../styles/Contact.css'; // Importation du style pour la page Contact
 
 // Importation des fichiers SVG
-import InstagramIcon from '../assets/images/Instagram_logo.svg';
-import LinkedInIcon from '../assets/images/LinkedIn_icon.svg';
-import YouTubeIcon from '../assets/images/YouTube-Icon.svg';
+import InstagramIcon from '../assets/images/instagram_black.svg';
+import LinkedInIcon from '../assets/images/linkedin_black.svg';
+import YouTubeIcon from '../assets/images/YouTube_black.svg';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
