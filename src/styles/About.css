@@ -18,6 +18,12 @@
     color: var(--primary-white);
     text-align: center;
     z-index: 1;
+    opacity: 0.09; /* Initialement invisible */
+    transition: opacity 2s ease-in; /* Ajoute une transition en fondu */
+}
+
+.about-parallax.fade-in {
+    opacity: 1; /* La section devient visible avec le fondu */
 }
 
 .parallax-content {

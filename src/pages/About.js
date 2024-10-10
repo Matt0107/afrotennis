@@ -1,8 +1,16 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import '../styles/About.css';  // Import the CSS specific to the About page
 
 const About = () => {
   const teamRef = useRef(null); // Référence pour la section "team"
+  const [isParallaxVisible, setIsParallaxVisible] = useState(false); // État pour le fondu de la section parallax
+
+  // Utilisation de useEffect pour démarrer l'animation en fondu dès le chargement de la page
+  useEffect(() => {
+    setTimeout(() => {
+      setIsParallaxVisible(true); // Déclencher l'affichage en fondu après le chargement de la page
+    }, 100); // Délai léger pour que l'animation soit fluide (facultatif)
+  }, []);
 
   useEffect(() => {
     const teamMembers = document.querySelectorAll('.team-member');
@@ -34,9 +42,11 @@ const About = () => {
     <div className="home-about">
       
       {/* Parallax Section */}
-      <section className="about-parallax">
+      <section 
+        className={`about-parallax ${isParallaxVisible ? 'fade-in' : ''}`}
+      >
         <div className="parallax-content">
-          <h2>Jump On Court</h2>
+          <h2>Our Mission</h2>
           <p>AfroTennis is dedicated to creating a platform for African tennis players, coaches, and enthusiasts to come together and grow the sport across the continent. Our mission is to provide resources, opportunities, and recognition for African tennis talents, while fostering a community that celebrates the diversity of African tennis.</p>
         </div>
       </section>

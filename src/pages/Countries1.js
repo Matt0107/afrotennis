@@ -19,7 +19,7 @@ const Countries1 = () => {
 
   return (
     <div className="countries1-page">
-      <h1>Where to Find Tennis in Africa</h1>
+      <h1 className='title-country'>Where to Find Tennis in Africa</h1>
       <MapContainer center={[9.082, 8.6753]} zoom={3} style={{ height: "500px", width: "100%" }}>
         <TileLayer
           url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
