@@ -36,7 +36,7 @@ const About = () => {
       {/* Parallax Section */}
       <section className="about-parallax">
         <div className="parallax-content">
-          <h2>Our Mission</h2>
+          <h2>Jump On Court</h2>
           <p>AfroTennis is dedicated to creating a platform for African tennis players, coaches, and enthusiasts to come together and grow the sport across the continent. Our mission is to provide resources, opportunities, and recognition for African tennis talents, while fostering a community that celebrates the diversity of African tennis.</p>
         </div>
       </section>

@@ -1,12 +1,20 @@
 import React from 'react';
+import '../styles/Countries.css';  // Importation des styles pour la page
 
 const Countries = () => {
-    return (
-        <div>
-            <h1>Pays d'Afrique et tennis</h1>
-            <p>Explorez le développement du tennis dans les pays d'Afrique.</p>
-        </div>
-    );
+  return (
+    <div className="countries-page">
+      <div className="construction-content">
+        <img 
+          src={require('../assets/images/tennis_construction_scene.png')} 
+          alt="Tennis in Progress" 
+          className="construction-image"
+        />
+        <h1>Page Under Construction</h1>
+        <p>We are working hard to bring you all the information about tennis in Africa. Stay tuned!</p>
+      </div>
+    </div>
+  );
 };
 
 export default Countries;

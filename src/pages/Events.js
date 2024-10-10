@@ -14,7 +14,7 @@ const Events = () => {
         </div>
         <div className="party-content">
           <h1>AfroTennis Party</h1>
-          <p>Join us for AfroTennis Party events in Berlin and Madrid! Connect with the tennis community, enjoy great music, and celebrate African tennis culture.</p>
+          <p>Join us for AfroTennis Party events in Berlin and Madrid! Connect with the tennis community, enjoy tennis and celebrate African culture.</p>
 
           {afrotennisPartyDatesAvailable ? (
             <>
@@ -39,26 +39,51 @@ const Events = () => {
               <th>Type</th> {/* Nouvelle colonne Type */}
               <th>Location</th>
               <th>Date</th>
+              <th>Surface</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Lagos Open</td>
+              <td>Brazzaville</td>
               <td>ATP Challenger 50</td> {/* Type de tournoi */}
-              <td>Lagos, Nigeria</td>
-              <td>12th - 18th April 2024</td>
+              <td>Brazzaville, Congo Republic</td>
+              <td>28th October - 3rd November 2024</td>
+              <td>Clay</td>
             </tr>
             <tr>
-              <td>Cairo International</td>
-              <td>WTA 125</td> {/* Type de tournoi */}
-              <td>Cairo, Egypt</td>
-              <td>5th - 11th May 2024</td>
-            </tr>
-            <tr>
-              <td>Rwanda Open</td>
-              <td>ATP Challenger 100</td> {/* Type de tournoi */}
+              <td>Kigali 1</td>
+              <td>ATP Challenger 50</td> {/* Type de tournoi */}
               <td>Kigali, Rwanda</td>
-              <td>20th - 25th June 2024</td>
+              <td>24th - 1st March 2025</td>
+              <td>Clay</td>
+            </tr>
+            <tr>
+              <td>Kigali 2</td>
+              <td>ATP Challenger 50</td> {/* Type de tournoi */}
+              <td>Kigali, Rwanda</td>
+              <td>2nd - 8th March 2025</td>
+              <td>Clay</td>
+            </tr>
+            <tr>
+              <td>Grand Prix Hassan II</td>
+              <td>ATP 250</td> {/* Type de tournoi */}
+              <td>Marrakech, Morocco</td>
+              <td>31th March - 7th April 2025</td>
+              <td>Clay</td>
+            </tr>
+            <tr>
+              <td>Grand Prix De Son Altesse Royale La Princesse Lalla Meryem</td>
+              <td>WTA 250</td> {/* Type de tournoi */}
+              <td>Rabat, Morocco</td>
+              <td>18th - 24th May 2025</td>
+              <td>Clay</td>
+            </tr>
+            <tr>
+              <td>Jasmin Open Tunisia</td>
+              <td>WTA 250</td> {/* Type de tournoi */}
+              <td>Monastir, Tunsia</td>
+              <td>8th - 14th September 2025</td>
+              <td>Hard Court</td>
             </tr>
           </tbody>
         </table>

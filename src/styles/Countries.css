@@ -1,0 +1,56 @@
+.countries-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  background-color: var(--primary-white); /* Background color */
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Image and content container */
+.construction-content {
+  max-width: 100%;
+  width: auto;
+  text-align: center;
+}
+
+/* Image */
+.construction-image {
+  max-width: 80%; /* Adjust to a comfortable size within the page */
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  object-fit: contain; /* Ensure the image is contained within the element */
+}
+
+/* Title */
+.construction-content h1 {
+  font-size: 2.5rem;
+  color: var(--primary-black); /* Black text */
+  margin-bottom: 20px;
+}
+
+/* Description */
+.construction-content p {
+  font-size: 1.5rem;
+  color: var(--primary-black); /* Black text */
+  margin-bottom: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .construction-content h1 {
+    font-size: 2rem;
+  }
+
+  .construction-content p {
+    font-size: 1.2rem;
+  }
+
+  .construction-image {
+    max-width: 90%; /* Ensure the image adjusts for smaller screens */
+    margin: 0 auto;
+  }
+}
