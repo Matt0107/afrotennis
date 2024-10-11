@@ -3,10 +3,12 @@ import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import '../styles/Countries.css';
 import federationsData from '../assets/data/federations.json'; // Importer les données
+import { useNavigate } from 'react-router-dom'; // Utilisation de useNavigate pour la redirection
 
 const Countries = () => {
   const [federations, setFederations] = useState([]);
   const [hoveredCountry, setHoveredCountry] = useState(null);
+  const navigate = useNavigate(); // Utilisation de useNavigate pour la redirection
 
   useEffect(() => {
     setFederations(federationsData.countries); // Charger les données depuis le fichier JSON
@@ -15,6 +17,16 @@ const Countries = () => {
   // Fonction pour gérer le survol (hover) et afficher les informations
   const handleMouseOver = (country) => {
     setHoveredCountry(country); // Ouvrir la popup pour le pays survolé
+  };
+
+  // Fonction pour gérer la redirection ou l'ouverture du lien externe
+  const handleWebsiteClick = (website, e) => {
+    e.preventDefault(); // Empêche le comportement par défaut du lien
+    if (website === "unknown") {
+      navigate('/progress'); // Redirige vers la page "Progress" si le site est "unknown"
+    } else {
+      window.open(website, '_blank'); // Ouvre le site dans un nouvel onglet si le site existe
+    }
   };
 
   return (
@@ -42,7 +54,15 @@ const Countries = () => {
               <Popup>
                 <b>{country.name}</b><br />
                 <i>{country.federation}</i><br />
-                <a href={country.website} target="_blank" rel="noopener noreferrer">Visit Website</a><br />
+                {/* Utilisation du lien pour "Visit Website" avec la logique de redirection */}
+                <a 
+                  href="/" 
+                  onClick={(e) => handleWebsiteClick(country.website, e)} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </a><br />
                 Contact: {country.contact}
               </Popup>
             )}

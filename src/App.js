@@ -1,4 +1,4 @@
-import './styles/App.css'; 
+import './styles/App.css';  
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';  // Assure-toi que le nom du fichier est correct
@@ -21,7 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/countries" element={<Countries />} />
-            <Route path="/progress" element={<Progress />} />
+            <Route path="/progress" element={<Progress />} />  {/* Route pour la page "Progress" */}
             <Route path="/podcasts" element={<Podcast />} />
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
