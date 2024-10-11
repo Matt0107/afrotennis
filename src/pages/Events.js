@@ -36,54 +36,53 @@ const Events = () => {
           <thead>
             <tr>
               <th>Tournament</th>
-              <th>Type</th> {/* Nouvelle colonne Type */}
+              <th>Type / Surface</th> {/* Nouvelle colonne Type */}
               <th>Location</th>
               <th>Date</th>
-              <th>Surface</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Brazzaville</td>
-              <td>ATP Challenger 50</td> {/* Type de tournoi */}
+              <td>ATP Challenger 50 / Clay</td> {/* Type de tournoi */}
               <td>Brazzaville, Congo Republic</td>
               <td>28th October - 3rd November 2024</td>
-              <td>Clay</td>
+
             </tr>
             <tr>
               <td>Kigali 1</td>
-              <td>ATP Challenger 50</td> {/* Type de tournoi */}
+              <td>ATP Challenger 50 / Clay</td> {/* Type de tournoi */}
               <td>Kigali, Rwanda</td>
               <td>24th - 1st March 2025</td>
-              <td>Clay</td>
+
             </tr>
             <tr>
               <td>Kigali 2</td>
-              <td>ATP Challenger 50</td> {/* Type de tournoi */}
+              <td>ATP Challenger 50 / Clay</td> {/* Type de tournoi */}
               <td>Kigali, Rwanda</td>
               <td>2nd - 8th March 2025</td>
-              <td>Clay</td>
+
             </tr>
             <tr>
               <td>Grand Prix Hassan II</td>
-              <td>ATP 250</td> {/* Type de tournoi */}
+              <td>ATP 250 / Clay</td> {/* Type de tournoi */}
               <td>Marrakech, Morocco</td>
               <td>31th March - 7th April 2025</td>
-              <td>Clay</td>
+
             </tr>
             <tr>
               <td>Grand Prix De Son Altesse Royale La Princesse Lalla Meryem</td>
-              <td>WTA 250</td> {/* Type de tournoi */}
+              <td>WTA 250 / Clay</td> {/* Type de tournoi */}
               <td>Rabat, Morocco</td>
               <td>18th - 24th May 2025</td>
-              <td>Clay</td>
+
             </tr>
             <tr>
               <td>Jasmin Open Tunisia</td>
-              <td>WTA 250</td> {/* Type de tournoi */}
+              <td>WTA 250 / Hard</td> {/* Type de tournoi */}
               <td>Monastir, Tunsia</td>
               <td>8th - 14th September 2025</td>
-              <td>Hard Court</td>
+
             </tr>
           </tbody>
         </table>
