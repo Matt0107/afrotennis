@@ -162,19 +162,19 @@
       },
       {
         "name": "Gambia",
-        "federation": "",
+        "federation": "Gambia Lawn Tennis Association",
         "lat": 13.4432,
         "lng": -15.3101,
-        "website": "",
-        "contact": ""
+        "website": "https://www.facebook.com/p/Gambia-Lawn-Tennis-Association-GLTA-100076044677056/",
+        "contact": "+220 4495 946"
       },
       {
         "name": "Ghana",
-        "federation": "Gambia Lawn Tennis Association",
+        "federation": "Ghana Tennis Association",
         "lat": 7.9465,
         "lng": -1.0232,
-        "website": "+220 4495 946",
-        "contact": "https://www.facebook.com/p/Gambia-Lawn-Tennis-Association-GLTA-100076044677056/"
+        "website": "https://gtftennis.com/",
+        "contact": "+233 24 438 8922"
       },
       {
         "name": "Guinea",
