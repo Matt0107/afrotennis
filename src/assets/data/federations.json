@@ -37,7 +37,7 @@
         "federation": "Federation Burkinabe de Tennis",
         "lat": 12.2383,
         "lng": -1.5616,
-        "website": "https://letalon.net/tag/federation-burkinabe-de-tennis-fbt/",
+        "website": "unknown",
         "contact": "+226 76 70 84 51"
       },
       {
@@ -58,107 +58,107 @@
       },
       {
         "name": "Cameroon",
-        "federation": "",
+        "federation": "Federation Camerounaise de Tennis",
         "lat": 7.3697,
         "lng": 12.3547,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+237 6 75 33 53 10"
       },
       {
         "name": "Central African Republic",
-        "federation": "",
+        "federation": "Federation Centrafricaine de Tennis",
         "lat": 6.6111,
         "lng": 20.9394,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "unknown"
       },
       {
         "name": "Chad",
-        "federation": "",
+        "federation": "Federation Tchadienne de Tennis",
         "lat": 15.4542,
         "lng": 18.7322,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "unknown"
       },
       {
         "name": "Comoros",
-        "federation": "",
+        "federation": "Federation Comorienne de Tennis",
         "lat": -11.6455,
         "lng": 43.3333,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+269 434 38 39"
       },
       {
         "name": "Congo (Brazzaville)",
-        "federation": "",
+        "federation": "Federation Congolaise de Tennis",
         "lat": -0.228,
         "lng": 15.8277,
-        "website": "",
-        "contact": ""
+        "website": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-Congolaise-de-Tennis/100094520150193/",
+        "contact": "+242 41 12 22"
       },
       {
         "name": "Congo (Kinshasa)",
-        "federation": "",
+        "federation": "Federation de la Republique Democratique Congolaise de Tennis",
         "lat": -4.0383,
         "lng": 21.7587,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+243 81 50 3909"
       },
       {
         "name": "Djibouti",
-        "federation": "",
+        "federation": "Fédération Djiboutienne de Tennis",
         "lat": 11.8251,
         "lng": 42.5903,
-        "website": "",
-        "contact": ""
+        "website": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-Djiboutienne-de-tennis-Officiel/100091963808940/",
+        "contact": "+253 77 61 61 63"
       },
       {
         "name": "Egypt",
-        "federation": "",
+        "federation": "Egyptian Tennis Federation",
         "lat": 26.8206,
         "lng": 30.8025,
-        "website": "",
-        "contact": ""
+        "website": "https://www.egypttennis.com/",
+        "contact": "+20224020673"
       },
       {
         "name": "Equatorial Guinea",
-        "federation": "",
+        "federation": "Federación Ecuatoguineana de Tenis",
         "lat": 1.6508,
         "lng": 10.2679,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+240 2222 37309"
       },
       {
         "name": "Eritrea",
-        "federation": "",
+        "federation": "Eritrean National Tennis Federation",
         "lat": 15.1794,
         "lng": 39.7823,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+291 1 11407"
       },
       {
         "name": "Eswatini",
-        "federation": "",
+        "federation": "Eswatini National Tennis Association",
         "lat": -26.5225,
         "lng": 31.4659,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+268 404 1590"
       },
       {
         "name": "Ethiopia",
-        "federation": "",
+        "federation": "Ethiopian Tennis Federation",
         "lat": 9.145,
         "lng": 40.4897,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+251 11 618 6009"
       },
       {
         "name": "Gabon",
-        "federation": "",
+        "federation": "Federation Gabonaise de Tennis",
         "lat": -0.8037,
         "lng": 11.6094,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+241 06 23 13 49"
       },
       {
         "name": "Gambia",
@@ -170,195 +170,195 @@
       },
       {
         "name": "Ghana",
-        "federation": "",
+        "federation": "Gambia Lawn Tennis Association",
         "lat": 7.9465,
         "lng": -1.0232,
-        "website": "",
-        "contact": ""
+        "website": "+220 4495 946",
+        "contact": "https://www.facebook.com/p/Gambia-Lawn-Tennis-Association-GLTA-100076044677056/"
       },
       {
         "name": "Guinea",
-        "federation": "",
+        "federation": "Federation Guineenne de Tennis",
         "lat": 9.9456,
         "lng": -9.6966,
-        "website": "",
-        "contact": ""
+        "website": "https://www.facebook.com/p/F%C3%A9deration-Guin%C3%A9enne-de-Tennis-FGT-100087942361757/?_rdr",
+        "contact": "+224 628 32 62 21"
       },
       {
         "name": "Guinea-Bissau",
-        "federation": "",
+        "federation": " Federaçao de Tenis da Guine-Bissau",
         "lat": 11.8037,
         "lng": -15.1804,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+245 580 1212"
       },
       {
         "name": "Ivory Coast",
-        "federation": "",
+        "federation": "Federation Ivoirienne de Tennis",
         "lat": 7.5399,
         "lng": -5.5471,
-        "website": "",
-        "contact": ""
+        "website": "http://fit-civ.org/",
+        "contact": "+225 2722422880"
       },
       {
         "name": "Kenya",
-        "federation": "",
+        "federation": "Tennis Kenya",
         "lat": -1.2921,
         "lng": 36.8219,
-        "website": "",
-        "contact": ""
+        "website": "https://tenniskenya.sportyhq.com/",
+        "contact": "+254 733 801885"
       },
       {
         "name": "Lesotho",
-        "federation": "",
+        "federation": "Lesotho Lawn Tennis Association",
         "lat": -29.6099,
         "lng": 28.2336,
-        "website": "",
-        "contact": ""
+        "website": "https://www.facebook.com/groups/784290028292648/",
+        "contact": "+266 67171592"
       },
       {
         "name": "Liberia",
-        "federation": "",
+        "federation": "Liberia Tennis Association",
         "lat": 6.4281,
         "lng": -9.4295,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+231 886 553 400"
       },
       {
         "name": "Libya",
-        "federation": "",
+        "federation": "Libyan Arab Tennis Federation",
         "lat": 26.3351,
         "lng": 17.2283,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+218 21 478 0488"
       },
       {
         "name": "Madagascar",
-        "federation": "",
+        "federation": "Federation Malagasy de Tennis",
         "lat": -18.7669,
         "lng": 46.8691,
-        "website": "",
-        "contact": ""
+        "website": "https://www.facebook.com/fmt.tennismalagasy/",
+        "contact": "+261 20 223 0060"
       },
       {
         "name": "Malawi",
-        "federation": "",
+        "federation": "Lawn Tennis Association of Malawi",
         "lat": -13.2543,
         "lng": 34.3015,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+265 995 419 246"
       },
       {
         "name": "Mali",
-        "federation": "",
+        "federation": "Federation Malienne de Tennis",
         "lat": 17.5707,
         "lng": -3.9962,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+223 223 48 05"
       },
       {
         "name": "Mauritania",
-        "federation": "",
+        "federation": "Federation Mauritanienne de Tennis",
         "lat": 21.0079,
         "lng": -10.9408,
-        "website": "",
-        "contact": ""
+        "website": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-de-Tennis-de-la-Mauritanie-FMT/61559929661859/",
+        "contact": "+222 529 68 29"
       },
       {
         "name": "Mauritius",
-        "federation": "",
+        "federation": "Mauritius Tennis Federation",
         "lat": -20.3484,
         "lng": 57.5522,
-        "website": "",
-        "contact": ""
+        "website": "https://mauritiustennis.com/",
+        "contact": "+230 686 3214"
       },
       {
         "name": "Morocco",
-        "federation": "",
+        "federation": "Federation Royale Marocaine de Tennis",
         "lat": 31.7917,
         "lng": -7.0926,
-        "website": "",
-        "contact": ""
+        "website": "https://www.frmt.ma/",
+        "contact": "+212 537 66 00 20"
       },
       {
         "name": "Mozambique",
-        "federation": "",
+        "federation": "Federacao Mocambicana de Tenis",
         "lat": -18.6657,
         "lng": 35.5296,
-        "website": "",
-        "contact": ""
+        "website": "https://www.facebook.com/fmtenis/?locale=pt_BR",
+        "contact": "+258 21 300473"
       },
       {
         "name": "Namibia",
-        "federation": "",
+        "federation": "Namibia Tennis Association",
         "lat": -22.9576,
         "lng": 18.4904,
-        "website": "",
-        "contact": ""
+        "website": "https://tennisnamibia.sportyhq.com/",
+        "contact": "+264 61 244495"
       },
       {
         "name": "Niger",
-        "federation": "",
+        "federation": "Federation Nigérienne de Tennis",
         "lat": 17.6078,
         "lng": 8.0817,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+227 735 893"
       },
       {
         "name": "Nigeria",
-        "federation": "",
+        "federation": "Nigeria Tennis Federation",
         "lat": 9.082,
         "lng": 8.6753,
-        "website": "",
-        "contact": ""
+        "website": "https://ntftennis.com/",
+        "contact": "+234 803 307 0695"
       },
       {
         "name": "Rwanda",
-        "federation": "",
+        "federation": "Federation Rwandaise de Tennis",
         "lat": -1.9403,
         "lng": 29.8739,
-        "website": "",
-        "contact": ""
+        "website": "https://frtennis.rw/",
+        "contact": "+250 7883 12950"
       },
       {
         "name": "Sao Tome and Principe",
-        "federation": "",
+        "federation": "São Toméan Tennis Federation",
         "lat": 0.1864,
         "lng": 6.6131,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "unknown"
       },
       {
         "name": "Senegal",
-        "federation": "",
+        "federation": "Federation Senegalaise de Tennis",
         "lat": 14.4974,
         "lng": -14.4524,
-        "website": "",
-        "contact": ""
+        "website": "https://www.facebook.com/p/F%C3%A9d%C3%A9ration-S%C3%A9n%C3%A9galaise-de-Tennis-100048728683819/?locale=pt_BR&_rdr",
+        "contact": "+221 77 657 53 63"
       },
       {
         "name": "Seychelles",
-        "federation": "",
+        "federation": "Seychelles Tennis Association",
         "lat": -4.6796,
         "lng": 55.492,
-        "website": "",
-        "contact": ""
+        "website": "Seychelles Tennis Association",
+        "contact": "+248 4323252"
       },
       {
         "name": "Sierra Leone",
-        "federation": "",
+        "federation": "Sierra Leone Lawn Tennis Association",
         "lat": 8.4606,
         "lng": -11.7799,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+23278148637"
       },
       {
         "name": "Somalia",
-        "federation": "",
+        "federation": "Somali Tennis Association",
         "lat": 5.1521,
         "lng": 46.1996,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+25215285009"
       },
       {
         "name": "South Africa",
@@ -378,59 +378,59 @@
       },
       {
         "name": "Sudan",
-        "federation": "",
+        "federation": "Sudan Tennis Association",
         "lat": 12.8628,
         "lng": 30.2176,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "unknown"
       },
       {
         "name": "Tanzania",
-        "federation": "",
+        "federation": "Tanzania Tennis Association",
         "lat": -6.369,
         "lng": 34.8888,
-        "website": "",
-        "contact": ""
+        "website": "unknown",
+        "contact": "+255 7543 3751"
       },
       {
         "name": "Togo",
-        "federation": "",
+        "federation": "Federation Togolaise de Tennis",
         "lat": 8.6195,
         "lng": 0.8248,
-        "website": "",
-        "contact": ""
+        "website": "https://ftt.tg/",
+        "contact": "+228 99 35 58 58"
       },
       {
         "name": "Tunisia",
-        "federation": "",
+        "federation": "Federation Tunisienne de Tennis",
         "lat": 33.8869,
         "lng": 9.5375,
-        "website": "",
-        "contact": ""
+        "website": "http://www.ftt.tn/",
+        "contact": "+216 71 844144"
       },
       {
         "name": "Uganda",
-        "federation": "",
+        "federation": "Uganda Tennis Association",
         "lat": 1.3733,
         "lng": 32.2903,
-        "website": "",
-        "contact": ""
+        "website": "https://tennisuganda.org/",
+        "contact": "+256 782141635"
       },
       {
         "name": "Zambia",
-        "federation": "",
+        "federation": "Zambia Tennis Association",
         "lat": -13.1339,
         "lng": 27.8493,
-        "website": "",
-        "contact": ""
+        "website": "https://www.facebook.com/p/Zambian-Tennis-Association-61553884656266/?locale=en_GB",
+        "contact": "+260 979326778"
       },
       {
         "name": "Zimbabwe",
-        "federation": "",
+        "federation": "Tennis Zimbabwe",
         "lat": -19.0154,
         "lng": 29.1549,
-        "website": "",
-        "contact": ""
+        "website": "https://www.facebook.com/tenniszim/",
+        "contact": "+263 4 279 5518"
       }
     ]
   }

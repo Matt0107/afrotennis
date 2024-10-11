@@ -10,7 +10,7 @@
   
   .party-banner img {
     width: 100%;
-    max-width: 800px; /* Réduit la taille maximale de l'image */
+    max-width: 600px; /* Réduit la taille maximale de l'image */
     height: auto;
     border-radius: 8px;
   }

@@ -10,7 +10,7 @@ const Events = () => {
       {/* Section AfroTennis Party */}
       <section className="afrotennis-party">
         <div className="party-banner">
-          <img src={require('../assets/images/afrotennis-party.jpg')} alt="AfroTennis Party" />
+          <img src={require('../assets/images/flyer.jpg')} alt="AfroTennis Party" />
         </div>
         <div className="party-content">
           <h1>AfroTennis Party</h1>
