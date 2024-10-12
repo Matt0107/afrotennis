@@ -15,8 +15,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers = "From: $email";
     $fullMessage = "Name: $name\nEmail: $email\n\nMessage:\n$message";
 
+    // Envoi de l'email
     if (mail($to, $subject, $fullMessage, $headers)) {
-        echo "Message sent successfully!";
+        // Redirection vers la page de succès
+        header("Location: https://www.afrotennis.com/contact-success");
+        exit(); // Assurez-vous que le script s'arrête après la redirection
     } else {
         echo "Failed to send message.";
     }

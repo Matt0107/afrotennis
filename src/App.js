@@ -10,6 +10,7 @@ import Progress from './pages/Progress';
 import Podcast from './pages/Podcast';
 import Events from './pages/Events';
 import Contact from './pages/Contact';
+import ContactSuccess from './pages/ContactSuccess';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/podcasts" element={<Podcast />} />
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/contact-success" element={<ContactSuccess />} />
           </Routes>
         </div>
         <Footer /> {/* Appel du composant Footer */}

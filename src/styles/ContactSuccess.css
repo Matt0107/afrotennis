@@ -1,0 +1,22 @@
+.contact-success-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+    height: 50vh; /* Assure que la hauteur prend tout l'écran */
+    text-align: center;
+    padding: 40px 20px;
+  }  
+  
+  .contact-success-page h1 {
+    font-size: 3rem;
+    color: var(--primary-black);
+  }
+  
+  .contact-success-page p {
+    font-size: 1.5rem;
+    color: var(--primary-gray);
+    margin: 20px 0;
+  }
+
+  

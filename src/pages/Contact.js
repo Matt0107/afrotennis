@@ -7,23 +7,25 @@ import LinkedInIcon from '../assets/images/linkedin_black.svg';
 import YouTubeIcon from '../assets/images/YouTube_black.svg';
 
 const Contact = () => {
-  const [statusMessage, setStatusMessage] = useState(''); // Pour afficher un message de statut
+  const [statusMessage, setStatusMessage] = useState('');
 
-  // Fonction qui gère l'envoi du formulaire
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const form = e.target; // Récupérer le formulaire
-    const formData = new FormData(form); // Créer un objet FormData
+    const form = e.target;
+    const formData = new FormData(form);
 
-    fetch('https://www.afrotennis.com/contact.php', { // Lien vers le fichier PHP en production
+    fetch('https://www.afrotennis.com/contact.php', { // Le fichier PHP qui traitera le formulaire
       method: 'POST',
       body: formData,
     })
       .then((response) => response.text())
       .then((text) => {
-        setStatusMessage(text); // Afficher la réponse de PHP (message de succès ou d'erreur)
-        form.reset(); // Réinitialiser le formulaire après soumission
+        setStatusMessage(text);
+        form.reset(); // Réinitialiser le formulaire
+
+        // Optionnel : Redirection après envoi réussi
+        window.location.href = '/contact-success'; // Redirection vers la page de succès
       })
       .catch((error) => {
         setStatusMessage('Failed to send message. Please try again.');
@@ -41,7 +43,6 @@ const Contact = () => {
 
       <section className="contact-form-section">
         <h2>Send us a message</h2>
-        {/* Utilisation de "action" pour pointer vers le fichier PHP */}
         <form className="contact-form" onSubmit={handleSubmit} method="POST">
           <input
             type="text"
