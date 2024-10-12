@@ -16,7 +16,7 @@ const Contact = () => {
     const form = e.target; // Récupérer le formulaire
     const formData = new FormData(form); // Créer un objet FormData
 
-    fetch('https://votresite.com/contact.php', { // Lien vers le fichier PHP en production
+    fetch('https://afrotennis.com/contact.php', { // Lien vers le fichier PHP en production
       method: 'POST',
       body: formData,
     })
