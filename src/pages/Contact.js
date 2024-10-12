@@ -14,15 +14,34 @@ const Contact = () => {
     message: ''
   });
 
+  const [statusMessage, setStatusMessage] = useState(''); // Pour afficher un message de statut
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Vous pouvez ajouter une logique pour envoyer le formulaire ici
-    alert('Message sent!');
-    setFormData({ name: '', email: '', subject: '', message: '' });
+
+    try {
+      const response = await fetch('http://localhost:5000/api/contact', { // Utilisez l'URL appropriée
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        setStatusMessage('Message sent successfully!'); // Message de succès
+        setFormData({ name: '', email: '', subject: '', message: '' }); // Réinitialiser le formulaire
+      } else {
+        setStatusMessage('Failed to send message. Please try again.'); // Message d'erreur
+      }
+    } catch (error) {
+      setStatusMessage('Error occurred. Please try again later.');
+      console.error('Error:', error);
+    }
   };
 
   return (
@@ -69,6 +88,7 @@ const Contact = () => {
           />
           <button type="submit" className="cta-button">Send Message</button>
         </form>
+        {statusMessage && <p className="status-message">{statusMessage}</p>} {/* Affichage du message de statut */}
       </section>
 
       <section className="social-media">
