@@ -7,41 +7,28 @@ import LinkedInIcon from '../assets/images/linkedin_black.svg';
 import YouTubeIcon from '../assets/images/YouTube_black.svg';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
-
   const [statusMessage, setStatusMessage] = useState(''); // Pour afficher un message de statut
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
+  // Fonction qui gère l'envoi du formulaire
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    try {
-      const response = await fetch('http://localhost:5000/api/contact', { // Utilisez l'URL appropriée
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(formData)
-      });
+    const form = e.target; // Récupérer le formulaire
+    const formData = new FormData(form); // Créer un objet FormData
 
-      if (response.ok) {
-        setStatusMessage('Message sent successfully!'); // Message de succès
-        setFormData({ name: '', email: '', subject: '', message: '' }); // Réinitialiser le formulaire
-      } else {
-        setStatusMessage('Failed to send message. Please try again.'); // Message d'erreur
-      }
-    } catch (error) {
-      setStatusMessage('Error occurred. Please try again later.');
-      console.error('Error:', error);
-    }
+    fetch('https://votresite.com/contact.php', { // Lien vers le fichier PHP en production
+      method: 'POST',
+      body: formData,
+    })
+      .then((response) => response.text())
+      .then((text) => {
+        setStatusMessage(text); // Afficher la réponse de PHP (message de succès ou d'erreur)
+        form.reset(); // Réinitialiser le formulaire après soumission
+      })
+      .catch((error) => {
+        setStatusMessage('Failed to send message. Please try again.');
+        console.error('Error:', error);
+      });
   };
 
   return (
@@ -54,35 +41,28 @@ const Contact = () => {
 
       <section className="contact-form-section">
         <h2>Send us a message</h2>
-        <form className="contact-form" onSubmit={handleSubmit}>
+        {/* Utilisation de "action" pour pointer vers le fichier PHP */}
+        <form className="contact-form" onSubmit={handleSubmit} method="POST">
           <input
             type="text"
             name="name"
-            value={formData.name}
-            onChange={handleChange}
             placeholder="Your Name"
             required
           />
           <input
             type="email"
             name="email"
-            value={formData.email}
-            onChange={handleChange}
             placeholder="Your Email"
             required
           />
           <input
             type="text"
             name="subject"
-            value={formData.subject}
-            onChange={handleChange}
             placeholder="Subject"
             required
           />
           <textarea
             name="message"
-            value={formData.message}
-            onChange={handleChange}
             placeholder="Your Message"
             required
           />
