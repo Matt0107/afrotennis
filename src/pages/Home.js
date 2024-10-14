@@ -15,7 +15,7 @@ const Home = () => {
 
       {/* About Section */}
       <section className="home-about">
-        <h2>Goals</h2>
+        <h2>Vision</h2>
         <p>Promoting tennis across Africa, showcasing the talents, stories and efforts driving the sport forward.</p>
       </section>
 
