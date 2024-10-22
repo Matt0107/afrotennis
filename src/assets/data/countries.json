@@ -1,0 +1,814 @@
+{
+  "countries": [
+    {
+      "name": "Nigeria",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Algeria",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Angola",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Benin",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Botswana",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Burkina Faso",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Burundi",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cabo Verde",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cameroon",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Central African Republic",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chad",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Comoros",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Congo (Brazzaville)",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Congo (Kinshasa)",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Djibouti",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Egypt",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Equatorial Guinea",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Eritrea",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Eswatini",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ethiopia",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gabon",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gambia",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ghana",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Guinea",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Guinea-Bissau",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ivory Coast",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kenya",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lesotho",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Liberia",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Libya",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Madagascar",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Malawi",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mali",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mauritania",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mauritius",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Morocco",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mozambique",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Namibia",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Niger",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rwanda",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Senegal",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Seychelles",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sierra Leone",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Somalia",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "South Africa",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "South Sudan",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sudan",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tanzania",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Togo",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tunisia",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Uganda",
+      "associations": [
+        {
+          "name": "Tennis For All Uganda",
+          "type": "Association",
+          "city": "Kampala",
+          "socialMedia": {
+            "facebook": "https://www.facebook.com/p/Tennis-For-All-Uganda-100047763378043/",
+            "instagram": "https://www.instagram.com/tennis_forall_uganda/?hl=fr",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Zambia",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Zimbabwe",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -63,7 +63,8 @@ const Countries = () => {
                 >
                   Visit Website
                 </a><br />
-                Contact: {country.contact}
+                Contact: {country.contact}<br/>
+                <a href={`/countries/${country.name.toLowerCase()}`}>See more clubs and associations</a><br/>
               </Popup>
             )}
           </CircleMarker>
