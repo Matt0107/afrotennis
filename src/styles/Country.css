@@ -95,3 +95,43 @@
 .social-icons a:hover {
   color: var(--primary-orange);
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .association-page {
+    padding: 20px 10px;
+  }
+
+  .association-page h1 {
+    font-size: 2rem; /* Ajuste la taille du titre sur mobile */
+  }
+
+  .association-page p {
+    font-size: 1rem; /* Ajuste la taille du texte sur mobile */
+  }
+
+  .association-list {
+    gap: 10px; /* Réduit l'espacement entre les cartes sur mobile */
+  }
+
+  .association-card {
+    flex: 1 1 100%; /* Les cartes prennent toute la largeur en mobile */
+    max-width: 100%; /* Ajuste la largeur des cartes sur mobile */
+  }
+
+  .association-card h3 {
+    font-size: 1.2rem; /* Réduit la taille du titre de l'association sur mobile */
+  }
+
+  .association-card p {
+    font-size: 0.9rem; /* Réduit la taille du texte dans les cartes sur mobile */
+  }
+
+  .cta-button {
+    padding: 8px 16px; /* Réduit la taille du bouton sur mobile */
+  }
+
+  .social-icons a {
+    margin: 0 5px; /* Réduit l'espacement des icônes sur mobile */
+  }
+}

@@ -1,21 +1,6 @@
 {
   "countries": [
     {
-      "name": "Nigeria",
-      "associations": [
-        {
-          "name": "",
-          "type": "",
-          "city": "",
-          "socialMedia": {
-            "facebook": "",
-            "instagram": "",
-            "twitter": ""
-          }
-        }
-      ]
-    },
-    {
       "name": "Algeria",
       "associations": [
         {
@@ -25,8 +10,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -40,8 +26,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -55,8 +42,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -70,8 +58,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -85,8 +74,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -100,8 +90,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -115,8 +106,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -130,8 +122,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -145,8 +138,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -160,8 +154,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -175,8 +170,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -190,8 +186,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -205,8 +202,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -220,8 +218,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -235,8 +234,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -250,8 +250,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -265,8 +266,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -280,8 +282,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -295,8 +298,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -310,8 +314,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -325,8 +330,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -340,8 +346,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -355,8 +362,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -370,8 +378,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -385,8 +394,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -400,8 +410,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -415,8 +426,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -430,8 +442,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -445,8 +458,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -460,8 +474,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -475,8 +490,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -490,8 +506,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -505,8 +522,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -520,8 +538,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -535,8 +554,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -550,8 +570,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -565,8 +586,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -580,8 +602,25 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
+        }
+      ]
+    },
+    {
+      "name": "Nigeria",
+      "associations": [
+        {
+          "name": "",
+          "type": "",
+          "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -595,8 +634,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -610,8 +650,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -625,8 +666,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -640,8 +682,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -655,8 +698,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -670,8 +714,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -685,8 +730,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -700,8 +746,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -715,8 +762,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -730,8 +778,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -745,8 +794,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -760,8 +810,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -776,7 +827,8 @@
             "facebook": "https://www.facebook.com/p/Tennis-For-All-Uganda-100047763378043/",
             "instagram": "https://www.instagram.com/tennis_forall_uganda/?hl=fr",
             "twitter": ""
-          }
+          },
+          "website" : "https://tennisforalluganda.org/"
         }
       ]
     },
@@ -790,8 +842,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     },
@@ -805,8 +858,9 @@
           "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": ""
-          }
+            "twitter": "" 
+          },
+          "website" : ""
         }
       ]
     }
