@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   const closeMenu = () => {
-    setIsOpen(false); // Ferme le menu après un clic sur un lien
+    setIsOpen(false); // Ferme le menu après un clic sur un lien ou la croix
   };
 
   return (
@@ -24,11 +24,10 @@ const Navbar = () => {
       <nav className="desktop">
         <div className="nav-logo">
           <Link to="/">
-          <img src={logo} alt="AfroTennis Logo" />
+            <img src={logo} alt="AfroTennis Logo" />
           </Link>
         </div>
         <ul>
-          {/* <li><Link to="/">Home</Link></li> */}
           <li><Link to="/about">About</Link></li>
           <li><Link to="/countries">Tennis in Africa</Link></li>
           <li><Link to="/podcasts">Podcast</Link></li>
@@ -39,6 +38,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation Bar */}
       <nav className={`mobile ${isOpen ? "open" : ""}`}>
+        <span className="close-menu" onClick={closeMenu}>&#10005;</span> {/* Ajout de la croix pour fermer */}
         <ul>
           <li><Link to="/" onClick={closeMenu}>Home</Link></li>
           <li><Link to="/about" onClick={closeMenu}>About</Link></li>
