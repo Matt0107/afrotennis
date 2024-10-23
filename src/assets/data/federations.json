@@ -137,9 +137,9 @@
         "federation": "Federation Congolaise de Tennis",
         "lat": -0.228,
         "lng": 15.8277,
-        "website": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-Congolaise-de-Tennis/100094520150193/",
+        "website": "",
         "socialMedia": {
-            "facebook": "",
+            "facebook": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-Congolaise-de-Tennis/100094520150193/",
             "instagram": "",
             "twitter": "" 
           }
@@ -161,9 +161,9 @@
         "federation": "Fédération Djiboutienne de Tennis",
         "lat": 11.8251,
         "lng": 42.5903,
-        "website": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-Djiboutienne-de-tennis-Officiel/100091963808940/",
+        "website": "",
         "socialMedia": {
-            "facebook": "",
+            "facebook": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-Djiboutienne-de-tennis-Officiel/100091963808940/",
             "instagram": "",
             "twitter": "" 
           }
