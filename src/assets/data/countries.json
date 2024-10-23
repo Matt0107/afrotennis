@@ -189,6 +189,28 @@
             "twitter": "" 
           },
           "website" : ""
+        },
+        {
+          "name": "Academie de Tennis de Brazzaville",
+          "type": "Academy",
+          "city": "Brazzaville",
+          "socialMedia": {
+            "facebook": "https://www.facebook.com/p/Academie-de-Tennis-de-Brazzaville-61559858617961/",
+            "instagram": "https://www.instagram.com/academietennisbzv/",
+            "twitter": "" 
+          },
+          "website" : "https://www.atbzv.com/"
+        },
+        {
+          "name": "Tennis Evolution Congo",
+          "type": "Association",
+          "city": "Blois (FR)",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          },
+          "website" : "https://tennisevolutioncongo.com/"
         }
       ]
     },
@@ -205,6 +227,17 @@
             "twitter": "" 
           },
           "website" : ""
+        },
+        {
+          "name": "Cercle de Kinshasa",
+          "type": "Club",
+          "city": "Kinshasa",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          },
+          "website" : "https://www.cercledekinshasa.com/tennis/"
         }
       ]
     },
@@ -340,6 +373,17 @@
       "name": "Ghana",
       "associations": [
         {
+          "name": "Ghana Tennis Club - The Pavilion Adabraka",
+          "type": "Club",
+          "city": "Accra",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          },
+          "website" : ""
+        },
+        {
           "name": "",
           "type": "",
           "city": "",
@@ -349,6 +393,17 @@
             "twitter": "" 
           },
           "website" : ""
+        },
+        {
+          "name": "Tennis Foundation Ghana",
+          "type": "Foundation",
+          "city": "Osu",
+          "socialMedia": {
+            "facebook": "https://www.facebook.com/tennisfoundationghana/",
+            "instagram": "",
+            "twitter": "" 
+          },
+          "website" : "https://www.ghanatennis.org/"
         }
       ]
     },

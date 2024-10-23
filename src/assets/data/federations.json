@@ -55,7 +55,7 @@
         "lng": -1.5616,
         "website": "",
         "socialMedia": {
-            "facebook": "",
+            "facebook": "https://www.facebook.com/FBTennisBurkina/",
             "instagram": "",
             "twitter": "" 
           }
@@ -67,9 +67,9 @@
         "lng": 29.9189,
         "website": "https://tennisburundi.com/",
         "socialMedia": {
-            "facebook": "",
-            "instagram": "",
-            "twitter": "" 
+            "facebook": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-de-Tennis-du-Burundi-FTB/100063863408388/",
+            "instagram": "https://www.instagram.com/tennis_burundi/",
+            "twitter": "https://x.com/burunditennis" 
           }
       },
       {
@@ -91,7 +91,7 @@
         "lng": 12.3547,
         "website": "",
         "socialMedia": {
-            "facebook": "",
+            "facebook": "https://www.facebook.com/p/Fecatennis-Official-100063918464323/",
             "instagram": "",
             "twitter": "" 
           }
@@ -127,7 +127,7 @@
         "lng": 43.3333,
         "website": "",
         "socialMedia": {
-            "facebook": "",
+            "facebook": "https://www.facebook.com/p/Federation-comorienne-de-tennis-100054406303563/?_rdr",
             "instagram": "",
             "twitter": "" 
           }
@@ -165,7 +165,7 @@
         "socialMedia": {
             "facebook": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-Djiboutienne-de-tennis-Officiel/100091963808940/",
             "instagram": "",
-            "twitter": "" 
+            "twitter": "https://x.com/federation34346" 
           }
       },
       {
@@ -175,8 +175,8 @@
         "lng": 30.8025,
         "website": "https://www.egypttennis.com/",
         "socialMedia": {
-            "facebook": "",
-            "instagram": "",
+            "facebook": "https://www.facebook.com/EgyptianTennisFederation/",
+            "instagram": "https://www.instagram.com/egyptiantennisfederation/",
             "twitter": "" 
           }
       },
@@ -249,7 +249,7 @@
         "socialMedia": {
             "facebook": "https://www.facebook.com/p/Gambia-Lawn-Tennis-Association-GLTA-100076044677056/",
             "instagram": "",
-            "twitter": "" 
+            "twitter": "https://twitter.com/lawntennisgmb" 
           }
       },
       {
@@ -259,7 +259,7 @@
         "lng": -1.0232,
         "website": "https://gtftennis.com/",
         "socialMedia": {
-            "facebook": "",
+            "facebook": "https://www.facebook.com/gtfghana/",
             "instagram": "",
             "twitter": "" 
           }
@@ -278,7 +278,7 @@
       },
       {
         "name": "Guinea-Bissau",
-        "federation": " Federaçao de Tenis da Guine-Bissau",
+        "federation": "Federaçao de Tenis da Guine-Bissau",
         "lat": 11.8037,
         "lng": -15.1804,
         "website": "",
