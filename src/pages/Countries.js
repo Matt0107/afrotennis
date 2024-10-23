@@ -73,7 +73,7 @@ const handleWebsiteClick = (website, e) => {
                     </a>
                   )}
                 </div>
-                {/* <a href={`/countries/${country.name.toLowerCase()}`}>More about Tennis</a><br/> */}
+                <a href={`/countries/${country.name.toLowerCase()}`}>More about Tennis</a><br/>
               </Popup>
             )}
           </CircleMarker>

@@ -127,7 +127,7 @@
         "lng": 43.3333,
         "website": "",
         "socialMedia": {
-            "facebook": "https://www.facebook.com/p/Federation-comorienne-de-tennis-100054406303563/?_rdr",
+            "facebook": "https://www.facebook.com/p/Federation-comorienne-de-tennis-100054406303563/",
             "instagram": "",
             "twitter": "" 
           }
@@ -295,7 +295,7 @@
         "lng": -5.5471,
         "website": "http://fit-civ.org/",
         "socialMedia": {
-            "facebook": "",
+            "facebook": "https://www.facebook.com/p/FIT-F%C3%A9d%C3%A9ration-Ivoirienne-de-Tennis-100064324764269/",
             "instagram": "",
             "twitter": "" 
           }
@@ -307,9 +307,9 @@
         "lng": 36.8219,
         "website": "https://tenniskenya.sportyhq.com/",
         "socialMedia": {
-            "facebook": "",
-            "instagram": "",
-            "twitter": "" 
+            "facebook": "https://www.facebook.com/tenniskenyaTK/",
+            "instagram": "https://www.instagram.com/tenniskenya/",
+            "twitter": "https://twitter.com/tennis_kenya" 
           }
       },
       {
@@ -391,7 +391,7 @@
         "lng": -10.9408,
         "website": "",
         "socialMedia": {
-            "facebook": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-de-Tennis-de-la-Mauritanie-FMT/61559929661859/",
+            "facebook": "",
             "instagram": "",
             "twitter": "" 
           }
@@ -403,8 +403,8 @@
         "lng": 57.5522,
         "website": "https://mauritiustennis.com/",
         "socialMedia": {
-            "facebook": "",
-            "instagram": "",
+            "facebook": "https://www.facebook.com/MauritiusTennisFederation/",
+            "instagram": "https://www.instagram.com/mauritiustennisfederation/",
             "twitter": "" 
           }
       },
@@ -417,7 +417,7 @@
         "socialMedia": {
             "facebook": "https://www.facebook.com/FRMTENNIS/",
             "instagram": "https://www.instagram.com/frmtennis/?hl=fr",
-            "twitter": "https://twitter.com/frmtennis?lang=fr" 
+            "twitter": "https://twitter.com/frmtennis" 
           }
       },
       {
@@ -427,7 +427,7 @@
         "lng": 35.5296,
         "website": "",
         "socialMedia": {
-            "facebook": "https://www.facebook.com/fmtenis/?locale=pt_BR",
+            "facebook": "https://www.facebook.com/fmtenis",
             "instagram": "",
             "twitter": "" 
           }
@@ -465,7 +465,7 @@
         "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": "" 
+            "twitter": "https://twitter.com/ntf_tennis" 
           }
       },
       {
@@ -475,9 +475,9 @@
         "lng": 29.8739,
         "website": "https://frtennis.rw/",
         "socialMedia": {
-            "facebook": "",
-            "instagram": "",
-            "twitter": "" 
+            "facebook": "https://www.facebook.com/p/Rwanda-Tennis-Federation-100063108076113/",
+            "instagram": "https://www.instagram.com/tennis_rwanda/",
+            "twitter": "https://twitter.com/tennis_rwanda" 
           }
       },
       {
@@ -537,7 +537,7 @@
         "socialMedia": {
             "facebook": "",
             "instagram": "",
-            "twitter": "" 
+            "twitter": "https://twitter.com/tennissomali" 
           }
       },
       {
@@ -547,19 +547,19 @@
         "lng": 22.9375,
         "website": "https://www.tennissa.co.za",
         "socialMedia": {
-            "facebook": "",
-            "instagram": "",
-            "twitter": "" 
+            "facebook": "https://www.facebook.com/TennisSouthAfrica/",
+            "instagram": "https://www.instagram.com/tennis__sa/",
+            "twitter": "https://twitter.com/tennissa" 
           }
       },
       {
         "name": "South Sudan",
-        "federation": "",
+        "federation": "South Sudan Tennis Lawn Association",
         "lat": 6.8769,
         "lng": 31.3069,
         "website": "",
         "socialMedia": {
-            "facebook": "",
+            "facebook": "https://www.facebook.com/southsudantennis/",
             "instagram": "",
             "twitter": "" 
           }
@@ -569,7 +569,7 @@
         "federation": "Sudan Tennis Association",
         "lat": 12.8628,
         "lng": 30.2176,
-        "website": "",
+        "website": "https://sudantennis.com/",
         "socialMedia": {
             "facebook": "",
             "instagram": "",
@@ -584,7 +584,7 @@
         "website": "",
         "socialMedia": {
             "facebook": "",
-            "instagram": "",
+            "instagram": "https://www.instagram.com/tennis_tanzania/",
             "twitter": "" 
           }
       },
@@ -595,8 +595,8 @@
         "lng": 0.8248,
         "website": "https://ftt.tg/",
         "socialMedia": {
-            "facebook": "",
-            "instagram": "",
+            "facebook": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-Togolaise-de-Tennis/100083420706701/",
+            "instagram": "https://www.instagram.com/federation_togolaise_de_tennis/",
             "twitter": "" 
           }
       },
@@ -607,8 +607,8 @@
         "lng": 9.5375,
         "website": "http://www.ftt.tn/",
         "socialMedia": {
-            "facebook": "",
-            "instagram": "",
+            "facebook": "https://www.facebook.com/129984604313837",
+            "instagram": "https://www.instagram.com/ftt_officiel/",
             "twitter": "" 
           }
       },

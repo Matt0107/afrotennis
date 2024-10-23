@@ -436,6 +436,17 @@
             "twitter": "" 
           },
           "website" : ""
+        },
+        {
+          "name": "Lawn Ténis Clube de Bissau ",
+          "type": "Club",
+          "city": "Bissau",
+          "socialMedia": {
+            "facebook": "https://www.facebook.com/LawnTenisClubeBissau/",
+            "instagram": "https://www.instagram.com/lawntenisclubebissau/",
+            "twitter": "" 
+          },
+          "website" : "https://ltcbissau.wixsite.com/ltcb"
         }
       ]
     },
@@ -443,15 +454,15 @@
       "name": "Ivory Coast",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "N'Goran Tennis Concept",
+          "type": "Club",
+          "city": "Abidjan",
           "socialMedia": {
             "facebook": "",
             "instagram": "",
             "twitter": "" 
           },
-          "website" : ""
+          "website" : "https://ngorantennis.com/"
         }
       ]
     },
@@ -459,15 +470,26 @@
       "name": "Kenya",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "Karen Country Club",
+          "type": "Club",
+          "city": "Nairobi",
           "socialMedia": {
             "facebook": "",
             "instagram": "",
             "twitter": "" 
           },
-          "website" : ""
+          "website" : "https://www.karencountryclub.org/Sports/Tennis.aspx"
+        },
+        {
+          "name": "IQ Tennis",
+          "type": "Academy",
+          "city": "Nairobi",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "https://www.instagram.com/iqtennis.co.ke/",
+            "twitter": "" 
+          },
+          "website" : "https://iqtennis.co.ke/"
         }
       ]
     },
@@ -475,12 +497,12 @@
       "name": "Lesotho",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "The Cosmos Tennis Academy",
+          "type": "Academy",
+          "city": "Maseru",
           "socialMedia": {
-            "facebook": "",
-            "instagram": "",
+            "facebook": "https://www.facebook.com/p/The-Cosmos-Tennis-Academy-100063705596715/",
+            "instagram": "https://www.instagram.com/thecosmostennisacadamy/",
             "twitter": "" 
           },
           "website" : ""
@@ -523,12 +545,12 @@
       "name": "Madagascar",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "Madagascar Tennis Project",
+          "type": "Association",
+          "city": "Antananarivo, Antsirabe,  Tamatave",
           "socialMedia": {
             "facebook": "",
-            "instagram": "",
+            "instagram": "https://www.instagram.com/madagascar_tennis_project_/",
             "twitter": "" 
           },
           "website" : ""
@@ -539,11 +561,11 @@
       "name": "Malawi",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "Malawi Tennis",
+          "type": "Academy",
+          "city": "Mzuzu",
           "socialMedia": {
-            "facebook": "",
+            "facebook": "https://www.facebook.com/p/Malawi-Tennis-100064089277788/?",
             "instagram": "",
             "twitter": "" 
           },
@@ -587,15 +609,26 @@
       "name": "Mauritius",
       "associations": [
         {
-          "name": "",
-          "type": "",
+          "name": "Ace Tennis Mauritius",
+          "type": "Academy",
           "city": "",
+          "socialMedia": {
+            "facebook": "",
+            "instagram": "https://www.instagram.com/acetennismauritius/",
+            "twitter": "" 
+          },
+          "website" : "https://www.tennismauritius.com/"
+        },
+        {
+          "name": "Mauritius Tennis Academy",
+          "type": "Academy",
+          "city": "Goodlands",
           "socialMedia": {
             "facebook": "",
             "instagram": "",
             "twitter": "" 
           },
-          "website" : ""
+          "website" : "https://mauritiustennisacademy.com/"
         }
       ]
     },
@@ -603,15 +636,26 @@
       "name": "Morocco",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "Moundir Tennis Academy",
+          "type": "Academy",
+          "city": "Casablanca",
           "socialMedia": {
-            "facebook": "",
+            "facebook": "https://www.facebook.com/pg/MTA.MoundirTennisAcademy",
+            "instagram": "https://www.instagram.com/moundirtennisacademy/",
+            "twitter": "" 
+          },
+          "website" : "https://moundirtennisacademy.com/"
+        },
+        {
+          "name": "Tennis Academy Marrakech",
+          "type": "Academy",
+          "city": "Marrakech",
+          "socialMedia": {
+            "facebook": "https://www.facebook.com/TennisAcademyMarrakech/",
             "instagram": "",
             "twitter": "" 
           },
-          "website" : ""
+          "website" : "https://www.tennisacademymarrakech.com/"
         }
       ]
     },
@@ -619,15 +663,15 @@
       "name": "Mozambique",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "Maputo Tennis Club",
+          "type": "Club",
+          "city": "Maputo",
           "socialMedia": {
             "facebook": "",
             "instagram": "",
             "twitter": "" 
           },
-          "website" : ""
+          "website" : "https://en.clubedetenis.com/"
         }
       ]
     },
@@ -635,11 +679,11 @@
       "name": "Namibia",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "Namibia Tennis Association",
+          "type": "Association",
+          "city": "Windhoek",
           "socialMedia": {
-            "facebook": "",
+            "facebook": "https://www.facebook.com/tennisnamibia/",
             "instagram": "",
             "twitter": "" 
           },
@@ -667,15 +711,15 @@
       "name": "Nigeria",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "Nigeria Tennis Live",
+          "type": "Media",
+          "city": "Lagos",
           "socialMedia": {
-            "facebook": "",
-            "instagram": "",
+            "facebook": "https://www.facebook.com/nigeriatennislive/",
+            "instagram": "https://www.instagram.com/nigeriatennislive/",
             "twitter": "" 
           },
-          "website" : ""
+          "website" : "https://nigeriatennislive.com/"
         }
       ]
     },
@@ -683,15 +727,15 @@
       "name": "Rwanda",
       "associations": [
         {
-          "name": "",
-          "type": "",
+          "name": "Tennis Rwanda Children's Foundation",
+          "type": "Foundation",
           "city": "",
           "socialMedia": {
             "facebook": "",
             "instagram": "",
             "twitter": "" 
           },
-          "website" : ""
+          "website" : "https://www.trcfic.org/"
         }
       ]
     },
@@ -715,15 +759,15 @@
       "name": "Senegal",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "Olympique Club Dakar",
+          "type": "Club",
+          "city": "Dakar",
           "socialMedia": {
             "facebook": "",
-            "instagram": "",
+            "instagram": "https://www.instagram.com/olympiqueclub/",
             "twitter": "" 
           },
-          "website" : ""
+          "website" : "https://olympique-club.com/"
         }
       ]
     },
