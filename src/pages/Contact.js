@@ -75,11 +75,11 @@ const Contact = () => {
       <section className="social-media">
         <h2>Follow us</h2>
         <div className="social-icons">
-          <a href="https://www.instagram.com/afrotennis/" target="_blank" rel="noopener noreferrer">
-            <img src={InstagramIcon} alt="Instagram" />
-          </a>
           <a href="https://www.linkedin.com/company/afrotennis" target="_blank" rel="noopener noreferrer">
             <img src={LinkedInIcon} alt="LinkedIn" />
+          </a>
+          <a href="https://www.instagram.com/afrotennis/" target="_blank" rel="noopener noreferrer">
+            <img src={InstagramIcon} alt="Instagram" />
           </a>
           <a href="https://www.youtube.com/channel/UCpjoo0f3uktTfwhn6wO4OYw" target="_blank" rel="noopener noreferrer">
             <img src={YouTubeIcon} alt="YouTube" />
