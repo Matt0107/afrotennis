@@ -18,7 +18,7 @@ const Country = () => {
 
   return (
     <div className="association-page">
-      <h1>Clubs and Associations in {country.name}</h1>
+      <h1>Play or Support Tennis in {country.name}</h1>
       <p>
         Discover the different structures working to promote tennis in{" "}
         {country.name}.

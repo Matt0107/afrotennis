@@ -4,6 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import '../styles/Countries.css';
 import federationsData from '../assets/data/federations.json'; // Importer les données
 import { useNavigate } from 'react-router-dom'; // Utilisation de useNavigate pour la redirection
+import { FaFacebook, FaInstagram, FaTwitter, FaGlobe } from 'react-icons/fa'; // Import des icônes
 
 const Countries = () => {
   const [federations, setFederations] = useState([]);
@@ -19,18 +20,14 @@ const Countries = () => {
     setHoveredCountry(country); // Ouvrir la popup pour le pays survolé
   };
 
-  // Fonction pour gérer la redirection ou l'ouverture du lien externe
-  const handleWebsiteClick = (website, e) => {
-    e.preventDefault(); // Empêche le comportement par défaut du lien
-    if (website === "unknown") {
-      navigate('/progress'); // Redirige vers la page "Progress" si le site est "unknown"
-    } else {
-      window.open(website, '_blank'); // Ouvre le site dans un nouvel onglet si le site existe
-    }
-  };
+// Fonction pour gérer l'ouverture du lien externe du site web
+const handleWebsiteClick = (website, e) => {
+  e.preventDefault(); // Empêche le comportement par défaut du lien
+  window.open(website, '_blank'); // Ouvre le site dans un nouvel onglet
+};
 
   return (
-    <div className="countries1-page">
+    <div className="countries-page">
       <h1 className='title-country'>Where to Find Tennis in Africa</h1>
       <MapContainer center={[9.082, 8.6753]} zoom={3} style={{ height: "500px", width: "100%" }}>
         <TileLayer
@@ -54,17 +51,29 @@ const Countries = () => {
               <Popup>
                 <b>{country.name}</b><br />
                 <i>{country.federation}</i><br />
-                {/* Utilisation du lien pour "Visit Website" avec la logique de redirection */}
-                <a 
-                  href="/" 
-                  onClick={(e) => handleWebsiteClick(country.website, e)} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  Visit Website
-                </a><br />
-                Contact: {country.contact}<br/>
-                <a href={`/countries/${country.name.toLowerCase()}`}>Clubs and Associations</a><br/>
+                <div className="social-links">
+                  {country.website && (
+                    <a href="/" onClick={(e) => handleWebsiteClick(country.website, e)} target="_blank" rel="noopener noreferrer">
+                      <FaGlobe size={24} /> {/* Icône pour le site web */}
+                    </a>
+                  )}
+                  {country.socialMedia?.facebook && (
+                    <a href={country.socialMedia.facebook} target="_blank" rel="noopener noreferrer">
+                      <FaFacebook size={24} />
+                    </a>
+                  )}
+                  {country.socialMedia?.instagram && (
+                    <a href={country.socialMedia.instagram} target="_blank" rel="noopener noreferrer">
+                      <FaInstagram size={24} />
+                    </a>
+                  )}
+                  {country.socialMedia?.twitter && (
+                    <a href={country.socialMedia.twitter} target="_blank" rel="noopener noreferrer">
+                      <FaTwitter size={24} />
+                    </a>
+                  )}
+                </div>
+                {/* <a href={`/countries/${country.name.toLowerCase()}`}>More about Tennis</a><br/> */}
               </Popup>
             )}
           </CircleMarker>

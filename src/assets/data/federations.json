@@ -6,7 +6,11 @@
         "lat": 28.0339,
         "lng": 1.6596,
         "website": "https://fatdz.com/accueil/",
-        "contact": "+213(0) 23 76 14 26"
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/Federation.Algerienne.Tennis/?profile_tab_item_selected=about&_rdr",
+            "instagram": "https://www.instagram.com/federation_algerienne_tennis/",
+            "twitter": "https://twitter.com/federationalge1/status/1773295761213526124" 
+          }
       },
       {
         "name": "Angola",
@@ -14,7 +18,11 @@
         "lat": -11.2027,
         "lng": 17.8739,
         "website": "https://ao.tenisintegrado.com/home",
-        "contact": "+244 (222) 790861"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "https://www.instagram.com/federacao_angolana_de_tenis/",
+            "twitter": "https://twitter.com/FAT_AngolaTenis" 
+          }
       },
       {
         "name": "Benin",
@@ -22,23 +30,35 @@
         "lat": 9.3077,
         "lng": 2.3158,
         "website": "https://www.fedebenintennis.com/",
-        "contact": "+229 95 95 07 34"
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/fedbenintennis/",
+            "instagram": "https://www.instagram.com/tennis_benin_fede/",
+            "twitter": "" 
+          }
       },
       {
         "name": "Botswana",
         "federation": "Botswana Tennis Association",
         "lat": -22.3285,
         "lng": 24.6849,
-        "website": "https://www.bnsc.co.bw/node/242",
-        "contact": "+267 31 85 859"
+        "website": "http://tennisbw.org.bw/",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61555785123264",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Burkina Faso",
         "federation": "Federation Burkinabe de Tennis",
         "lat": 12.2383,
         "lng": -1.5616,
-        "website": "unknown",
-        "contact": "+226 76 70 84 51"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Burundi",
@@ -46,7 +66,11 @@
         "lat": -3.3731,
         "lng": 29.9189,
         "website": "https://tennisburundi.com/",
-        "contact": "+257 22 22 21 20"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Cabo Verde",
@@ -54,39 +78,59 @@
         "lat": 16.5388,
         "lng": -23.0418,
         "website": "https://www.coc.cv/federacoes/detalhe-da-federacao/?idfed=237086&fedCode=FED-959d3969-cd47-45ff-aa67-535a55c90167",
-        "contact": "+238 26 13 309"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Cameroon",
         "federation": "Federation Camerounaise de Tennis",
         "lat": 7.3697,
         "lng": 12.3547,
-        "website": "unknown",
-        "contact": "+237 6 75 33 53 10"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Central African Republic",
         "federation": "Federation Centrafricaine de Tennis",
         "lat": 6.6111,
         "lng": 20.9394,
-        "website": "unknown",
-        "contact": "unknown"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Chad",
         "federation": "Federation Tchadienne de Tennis",
         "lat": 15.4542,
         "lng": 18.7322,
-        "website": "unknown",
-        "contact": "unknown"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Comoros",
         "federation": "Federation Comorienne de Tennis",
         "lat": -11.6455,
         "lng": 43.3333,
-        "website": "unknown",
-        "contact": "+269 434 38 39"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Congo (Brazzaville)",
@@ -94,15 +138,23 @@
         "lat": -0.228,
         "lng": 15.8277,
         "website": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-Congolaise-de-Tennis/100094520150193/",
-        "contact": "+242 41 12 22"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Congo (Kinshasa)",
         "federation": "Federation de la Republique Democratique Congolaise de Tennis",
         "lat": -4.0383,
         "lng": 21.7587,
-        "website": "unknown",
-        "contact": "+243 81 50 3909"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Djibouti",
@@ -110,7 +162,11 @@
         "lat": 11.8251,
         "lng": 42.5903,
         "website": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-Djiboutienne-de-tennis-Officiel/100091963808940/",
-        "contact": "+253 77 61 61 63"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Egypt",
@@ -118,55 +174,83 @@
         "lat": 26.8206,
         "lng": 30.8025,
         "website": "https://www.egypttennis.com/",
-        "contact": "+20224020673"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Equatorial Guinea",
         "federation": "Federación Ecuatoguineana de Tenis",
         "lat": 1.6508,
         "lng": 10.2679,
-        "website": "unknown",
-        "contact": "+240 2222 37309"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Eritrea",
         "federation": "Eritrean National Tennis Federation",
         "lat": 15.1794,
         "lng": 39.7823,
-        "website": "unknown",
-        "contact": "+291 1 11407"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Eswatini",
         "federation": "Eswatini National Tennis Association",
         "lat": -26.5225,
         "lng": 31.4659,
-        "website": "unknown",
-        "contact": "+268 404 1590"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Ethiopia",
         "federation": "Ethiopian Tennis Federation",
         "lat": 9.145,
         "lng": 40.4897,
-        "website": "unknown",
-        "contact": "+251 11 618 6009"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Gabon",
         "federation": "Federation Gabonaise de Tennis",
         "lat": -0.8037,
         "lng": 11.6094,
-        "website": "unknown",
-        "contact": "+241 06 23 13 49"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Gambia",
         "federation": "Gambia Lawn Tennis Association",
         "lat": 13.4432,
         "lng": -15.3101,
-        "website": "https://www.facebook.com/p/Gambia-Lawn-Tennis-Association-GLTA-100076044677056/",
-        "contact": "+220 4495 946"
+        "website": "",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/p/Gambia-Lawn-Tennis-Association-GLTA-100076044677056/",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Ghana",
@@ -174,23 +258,35 @@
         "lat": 7.9465,
         "lng": -1.0232,
         "website": "https://gtftennis.com/",
-        "contact": "+233 24 438 8922"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Guinea",
         "federation": "Federation Guineenne de Tennis",
         "lat": 9.9456,
         "lng": -9.6966,
-        "website": "https://www.facebook.com/p/F%C3%A9deration-Guin%C3%A9enne-de-Tennis-FGT-100087942361757/?_rdr",
-        "contact": "+224 628 32 62 21"
+        "website": "",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/p/F%C3%A9deration-Guin%C3%A9enne-de-Tennis-FGT-100087942361757/?_rdr",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Guinea-Bissau",
         "federation": " Federaçao de Tenis da Guine-Bissau",
         "lat": 11.8037,
         "lng": -15.1804,
-        "website": "unknown",
-        "contact": "+245 580 1212"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Ivory Coast",
@@ -198,7 +294,11 @@
         "lat": 7.5399,
         "lng": -5.5471,
         "website": "http://fit-civ.org/",
-        "contact": "+225 2722422880"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Kenya",
@@ -206,63 +306,95 @@
         "lat": -1.2921,
         "lng": 36.8219,
         "website": "https://tenniskenya.sportyhq.com/",
-        "contact": "+254 733 801885"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Lesotho",
         "federation": "Lesotho Lawn Tennis Association",
         "lat": -29.6099,
         "lng": 28.2336,
-        "website": "https://www.facebook.com/groups/784290028292648/",
-        "contact": "+266 67171592"
+        "website": "",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/groups/784290028292648/",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Liberia",
         "federation": "Liberia Tennis Association",
         "lat": 6.4281,
         "lng": -9.4295,
-        "website": "unknown",
-        "contact": "+231 886 553 400"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Libya",
         "federation": "Libyan Arab Tennis Federation",
         "lat": 26.3351,
         "lng": 17.2283,
-        "website": "unknown",
-        "contact": "+218 21 478 0488"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Madagascar",
         "federation": "Federation Malagasy de Tennis",
         "lat": -18.7669,
         "lng": 46.8691,
-        "website": "https://www.facebook.com/fmt.tennismalagasy/",
-        "contact": "+261 20 223 0060"
+        "website": "",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/fmt.tennismalagasy/",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Malawi",
         "federation": "Lawn Tennis Association of Malawi",
         "lat": -13.2543,
         "lng": 34.3015,
-        "website": "unknown",
-        "contact": "+265 995 419 246"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Mali",
         "federation": "Federation Malienne de Tennis",
         "lat": 17.5707,
         "lng": -3.9962,
-        "website": "unknown",
-        "contact": "+223 223 48 05"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Mauritania",
         "federation": "Federation Mauritanienne de Tennis",
         "lat": 21.0079,
         "lng": -10.9408,
-        "website": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-de-Tennis-de-la-Mauritanie-FMT/61559929661859/",
-        "contact": "+222 529 68 29"
+        "website": "",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/people/F%C3%A9d%C3%A9ration-de-Tennis-de-la-Mauritanie-FMT/61559929661859/",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Mauritius",
@@ -270,7 +402,11 @@
         "lat": -20.3484,
         "lng": 57.5522,
         "website": "https://mauritiustennis.com/",
-        "contact": "+230 686 3214"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Morocco",
@@ -278,15 +414,23 @@
         "lat": 31.7917,
         "lng": -7.0926,
         "website": "https://www.frmt.ma/",
-        "contact": "+212 537 66 00 20"
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/FRMTENNIS/",
+            "instagram": "https://www.instagram.com/frmtennis/?hl=fr",
+            "twitter": "https://twitter.com/frmtennis?lang=fr" 
+          }
       },
       {
         "name": "Mozambique",
         "federation": "Federacao Mocambicana de Tenis",
         "lat": -18.6657,
         "lng": 35.5296,
-        "website": "https://www.facebook.com/fmtenis/?locale=pt_BR",
-        "contact": "+258 21 300473"
+        "website": "",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/fmtenis/?locale=pt_BR",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Namibia",
@@ -294,15 +438,23 @@
         "lat": -22.9576,
         "lng": 18.4904,
         "website": "https://tennisnamibia.sportyhq.com/",
-        "contact": "+264 61 244495"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Niger",
         "federation": "Federation Nigérienne de Tennis",
         "lat": 17.6078,
         "lng": 8.0817,
-        "website": "unknown",
-        "contact": "+227 735 893"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Nigeria",
@@ -310,7 +462,11 @@
         "lat": 9.082,
         "lng": 8.6753,
         "website": "https://ntftennis.com/",
-        "contact": "+234 803 307 0695"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Rwanda",
@@ -318,23 +474,35 @@
         "lat": -1.9403,
         "lng": 29.8739,
         "website": "https://frtennis.rw/",
-        "contact": "+250 7883 12950"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Sao Tome and Principe",
         "federation": "São Toméan Tennis Federation",
         "lat": 0.1864,
         "lng": 6.6131,
-        "website": "unknown",
-        "contact": "unknown"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Senegal",
         "federation": "Federation Senegalaise de Tennis",
         "lat": 14.4974,
         "lng": -14.4524,
-        "website": "https://www.facebook.com/p/F%C3%A9d%C3%A9ration-S%C3%A9n%C3%A9galaise-de-Tennis-100048728683819/?locale=pt_BR&_rdr",
-        "contact": "+221 77 657 53 63"
+        "website": "",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/p/F%C3%A9d%C3%A9ration-S%C3%A9n%C3%A9galaise-de-Tennis-100048728683819/?locale=pt_BR&_rdr",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Seychelles",
@@ -342,23 +510,35 @@
         "lat": -4.6796,
         "lng": 55.492,
         "website": "Seychelles Tennis Association",
-        "contact": "+248 4323252"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Sierra Leone",
         "federation": "Sierra Leone Lawn Tennis Association",
         "lat": 8.4606,
         "lng": -11.7799,
-        "website": "unknown",
-        "contact": "+23278148637"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Somalia",
         "federation": "Somali Tennis Association",
         "lat": 5.1521,
         "lng": 46.1996,
-        "website": "unknown",
-        "contact": "+25215285009"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "South Africa",
@@ -366,7 +546,11 @@
         "lat": -30.5595,
         "lng": 22.9375,
         "website": "https://www.tennissa.co.za",
-        "contact": ""
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "South Sudan",
@@ -374,23 +558,35 @@
         "lat": 6.8769,
         "lng": 31.3069,
         "website": "",
-        "contact": ""
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Sudan",
         "federation": "Sudan Tennis Association",
         "lat": 12.8628,
         "lng": 30.2176,
-        "website": "unknown",
-        "contact": "unknown"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Tanzania",
         "federation": "Tanzania Tennis Association",
         "lat": -6.369,
         "lng": 34.8888,
-        "website": "unknown",
-        "contact": "+255 7543 3751"
+        "website": "",
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Togo",
@@ -398,7 +594,11 @@
         "lat": 8.6195,
         "lng": 0.8248,
         "website": "https://ftt.tg/",
-        "contact": "+228 99 35 58 58"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Tunisia",
@@ -406,7 +606,11 @@
         "lat": 33.8869,
         "lng": 9.5375,
         "website": "http://www.ftt.tn/",
-        "contact": "+216 71 844144"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Uganda",
@@ -414,23 +618,35 @@
         "lat": 1.3733,
         "lng": 32.2903,
         "website": "https://tennisuganda.org/",
-        "contact": "+256 782141635"
+        "socialMedia": {
+            "facebook": "",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Zambia",
         "federation": "Zambia Tennis Association",
         "lat": -13.1339,
         "lng": 27.8493,
-        "website": "https://www.facebook.com/p/Zambian-Tennis-Association-61553884656266/?locale=en_GB",
-        "contact": "+260 979326778"
+        "website": "",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/p/Zambian-Tennis-Association-61553884656266/?locale=en_GB",
+            "instagram": "",
+            "twitter": "" 
+          }
       },
       {
         "name": "Zimbabwe",
         "federation": "Tennis Zimbabwe",
         "lat": -19.0154,
         "lng": 29.1549,
-        "website": "https://www.facebook.com/tenniszim/",
-        "contact": "+263 4 279 5518"
+        "website": "",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/tenniszim/",
+            "instagram": "",
+            "twitter": "" 
+          }
       }
     ]
   }
