@@ -37,7 +37,7 @@ const Contact = () => {
     <div className="contact-page">
       <section className="contact-info">
         <h1>Contact Us</h1>
-        <p>If you have any questions, feel free to reach out to us.</p>
+        <p>Feel free to reach out to us by using this form.</p>
         <p> You can also send us an email at <a href="mailto:hello@afrotennis.com">hello@afrotennis.com</a>.</p>
       </section>
 

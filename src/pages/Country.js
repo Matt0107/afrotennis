@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import countriesData from "../assets/data/countries.json"; // Importe les données des pays
 import "../styles/Country.css"; // Importe le fichier CSS pour styliser la page
 
@@ -16,6 +16,14 @@ const Country = () => {
     return <p>Country not found!</p>;
   }
 
+  // Fonction pour vérifier si une association a des informations valides
+  const isValidAssociation = (association) => {
+    return association.name || association.type || association.city;
+  };
+
+  // Vérifier si le pays a des associations avec des informations valides
+  const validAssociations = country.associations.filter(isValidAssociation);
+
   return (
     <div className="association-page">
       <h1>Play or Support Tennis in {country.name}</h1>
@@ -26,57 +34,67 @@ const Country = () => {
       <p>Find more information below.</p>
 
       <div className="association-list">
-        {country.associations.map((association, index) => (
-          <div className="association-card" key={index}>
-            <h3>{association.name}</h3>
-            <p>
-              <i>{association.type}</i>
-            </p>
-            <p>City: {association.city}</p>
-            {association.website ? (
-              <a
-                href={association.website}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visit Website
-              </a>
-            ) : (
-              <p>No Website Available</p>
-            )}
-            {association.socialMedia && (
-              <div className="social-icons">
-                {association.socialMedia.facebook && (
-                  <a
-                    href={association.socialMedia.facebook}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaFacebook size={24} />
-                  </a>
-                )}
-                {association.socialMedia.instagram && (
-                  <a
-                    href={association.socialMedia.instagram}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaInstagram size={24} />
-                  </a>
-                )}
-                {association.socialMedia.twitter && (
-                  <a
-                    href={association.socialMedia.twitter}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaTwitter size={24} />
-                  </a>
-                )}
-              </div>
-            )}
+        {validAssociations.length > 0 ? (
+          validAssociations.map((association, index) => (
+            <div className="association-card" key={index}>
+              <h3>{association.name || "Unnamed Association"}</h3>
+              <p>
+                <i>{association.type || "No type specified"}</i>
+              </p>
+              <p>City: {association.city || "No city specified"}</p>
+              {association.website ? (
+                <a
+                  href={association.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </a>
+              ) : (
+                <p>No Website Available</p>
+              )}
+              {association.socialMedia && (
+                <div className="social-icons">
+                  {association.socialMedia.facebook && (
+                    <a
+                      href={association.socialMedia.facebook}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaFacebook size={24} />
+                    </a>
+                  )}
+                  {association.socialMedia.instagram && (
+                    <a
+                      href={association.socialMedia.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaInstagram size={24} />
+                    </a>
+                  )}
+                  {association.socialMedia.twitter && (
+                    <a
+                      href={association.socialMedia.twitter}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaTwitter size={24} />
+                    </a>
+                  )}
+                </div>
+              )}
+            </div>
+          ))
+        ) : (
+          <div className="no-association">
+            <p>We're sorry, but we couldn't find any tennis structures in {country.name}.</p>
+            <p>If you know of any clubs, associations, or organizations, please help us improve our listings.</p>
+            <Link to="/contact" className="cta-button">
+              Contact Us to Share Info
+            </Link>
           </div>
-        ))}
+        )}
       </div>
     </div>
   );

@@ -31,7 +31,7 @@ const Podcast = () => {
     <div className="podcast-page">
       {/* Section d'introduction */}
       <section className="podcast-intro">
-        <h1>Our AfroTennis Podcast</h1>
+        <h1>AfroTennis Podcast</h1>
         <p>Explore our collection of podcasts featuring exclusive interviews, insights, and stories from the world of African tennis.</p>
       </section>
 
