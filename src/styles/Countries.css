@@ -30,11 +30,9 @@
     padding-right: 20px; /* Pour éviter de chevaucher la croix */
 }
 
-/* .leaflet-popup-content a {
+.leaflet-popup-content a {
     color: var(--primary-orange);
     text-decoration: underline;
-} */
-.leaflet-popup-content a {
     position: relative;
     z-index: 10; /* Forcer l'affichage au-dessus des autres éléments */
 }
