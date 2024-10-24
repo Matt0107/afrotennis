@@ -23,6 +23,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
+      <p>Powered by Serve and Code</p>
     </footer>
   );
 };
