@@ -384,15 +384,15 @@
       "name": "Ghana",
       "associations": [
         {
-          "name": "Ghana Tennis Club - The Pavilion Adabraka",
-          "type": "Club",
+          "name": "Africa Tennis Connect Foundation",
+          "type": "Foundation",
           "city": "Accra",
           "socialMedia": {
             "facebook": "",
-            "instagram": "",
+            "instagram": "https://www.instagram.com/acetennisghana/",
             "twitter": "" 
           },
-          "website" : ""
+          "website" : "https://www.africatennisconnectfoundation.com/index.php"
         },
         {
           "name": "",
@@ -898,15 +898,15 @@
       "name": "Togo",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "InterRecruit Foundation",
+          "type": "Foundation",
+          "city": "Lome",
           "socialMedia": {
-            "facebook": "",
-            "instagram": "",
-            "twitter": "" 
+            "facebook": "https://m.facebook.com/InterRecruitFoundation/",
+            "instagram": "https://www.instagram.com/interrecruit_foundation/",
+            "twitter": "https://x.com/InterRecruit/" 
           },
-          "website" : ""
+          "website" : "https://interrecruit.org/"
         }
       ]
     },
