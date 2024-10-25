@@ -202,17 +202,6 @@
       "name": "Congo (Brazzaville)",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
-          "socialMedia": {
-            "facebook": "",
-            "instagram": "",
-            "twitter": "" 
-          },
-          "website" : ""
-        },
-        {
           "name": "Academie de Tennis de Brazzaville",
           "type": "Academy",
           "city": "Brazzaville",
@@ -239,17 +228,6 @@
     {
       "name": "Congo (Kinshasa)",
       "associations": [
-        {
-          "name": "",
-          "type": "",
-          "city": "",
-          "socialMedia": {
-            "facebook": "",
-            "instagram": "",
-            "twitter": "" 
-          },
-          "website" : ""
-        },
         {
           "name": "Cercle de Kinshasa",
           "type": "Club",
@@ -283,15 +261,26 @@
       "name": "Egypt",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "Advantage Tennis Academy Egypt",
+          "type": "Academy",
+          "city": "New Giza",
+          "socialMedia": {
+            "facebook": "https://www.facebook.com/AdvantageNEWGIZA",
+            "instagram": "https://www.instagram.com/advantagetennisacademy.eg/",
+            "twitter": "" 
+          },
+          "website" : "https://www.advantagetennisegypt.com/"
+        },
+        {
+          "name": "Smash Sporting Club Tennis Academy",
+          "type": "Academy",
+          "city": "Cairo",
           "socialMedia": {
             "facebook": "",
             "instagram": "",
             "twitter": "" 
           },
-          "website" : ""
+          "website" : "https://www.smashsportingclub.com/tennis-academy/"
         }
       ]
     },
@@ -925,15 +914,15 @@
       "name": "Tunisia",
       "associations": [
         {
-          "name": "",
-          "type": "",
-          "city": "",
+          "name": "Tennis Club de Tunis",
+          "type": "Club",
+          "city": "Tunisie",
           "socialMedia": {
-            "facebook": "",
-            "instagram": "",
+            "facebook": "https://www.facebook.com/523008844469469",
+            "instagram": "https://www.instagram.com/tennisclubdetunis/",
             "twitter": "" 
           },
-          "website" : ""
+          "website" : "http://www.tct.org.tn/pages/tunisopen.php?p=7"
         }
       ]
     },
