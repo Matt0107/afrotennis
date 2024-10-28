@@ -39,7 +39,7 @@ const Country = () => {
             <div className="association-card" key={index}>
               <h3>{association.name || "Unnamed Association"}</h3>
               <p>
-                <i>{association.type || "No type specified"}</i>
+                <i>{association.type || "No type of structure specified"}</i>
               </p>
               <p>City: {association.city || "No city specified"}</p>
               {association.website ? (
