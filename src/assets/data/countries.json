@@ -147,6 +147,17 @@
             "twitter": "" 
           },
           "website" : "https://www.otatennis.org/"
+        },
+        {
+          "name": "Sert Pour l'Afrique",
+          "type": "Acssociation",
+          "city": "Yaoundé",
+          "socialMedia": {
+            "facebook": "https://www.facebook.com/Sert-pour-lAfrique-109198860466886/",
+            "instagram": "https://www.instagram.com/sertpourlafrique/",
+            "twitter": "" 
+          },
+          "website" : "https://sertpourlafrique.wixsite.com/website"
         }
       ]
     },
