@@ -1,0 +1,17 @@
+{
+    "name": "AfroTennis",
+    "short_name": "AfroTennis",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "description": "The leading platform for promoting tennis in Africa.",
+    "icons": [
+      {
+        "src": "afrotennis_favicon.ico",
+        "sizes": "64x64",
+        "type": "image/x-icon"
+      }
+    ]
+  }
+  
