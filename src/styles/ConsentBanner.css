@@ -1,0 +1,55 @@
+/* Style global pour la bannière de consentement */
+.consent-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1000;
+  }
+  
+  /* Style pour le texte et le lien de la bannière */
+  .consent-banner p {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--primary-white);
+    max-width: 80%;
+    line-height: 1.5;
+  }
+  
+  /* Style pour le lien de la politique de confidentialité */
+  .privacy-link {
+    color: var(--primary-orange);
+    margin-left: 8px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .privacy-link:hover {
+    color: var(--hover-orange);
+  }
+  
+  /* Style pour le bouton d'acceptation */
+  .accept-button {
+    background-color: var(--primary-orange);
+    color: var(--primary-white);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accept-button:hover {
+    background-color: var(--hover-orange);
+  }
+  

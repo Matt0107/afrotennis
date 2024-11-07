@@ -1,7 +1,7 @@
 import './styles/App.css';  
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';  // Assure-toi que le nom du fichier est correct
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -12,26 +12,30 @@ import Podcast from './pages/Podcast';
 import Events from './pages/Events';
 import Contact from './pages/Contact';
 import ContactSuccess from './pages/ContactSuccess';
+import Privacy from './pages/Privacy';
+import ConsentBanner from './components/ConsentBanner';
 
 function App() {
   return (
     <Router>
       <div className="site-container">
-        <Navbar /> {/* Appel du composant Navbar */}
+        <Navbar />
         <div className="content-wrap">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/countries" element={<Countries />} />
             <Route path="/countries/:countryName" element={<Country />} />
-            <Route path="/progress" element={<Progress />} />  {/* Route pour la page "Progress" */}
+            <Route path="/progress" element={<Progress />} />
             <Route path="/podcasts" element={<Podcast />} />
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/contact-success" element={<ContactSuccess />} />
+            <Route path="/privacy-policy" element={<Privacy />} />
           </Routes>
         </div>
-        <Footer /> {/* Appel du composant Footer */}
+        <ConsentBanner /> {/* Place le ConsentBanner ici */}
+        <Footer />
       </div>
     </Router>
   );
