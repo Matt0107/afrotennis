@@ -5,6 +5,15 @@ const ConsentBanner = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    // Définit le consentement par défaut pour l'analyse et la publicité (analytique uniquement dans votre cas)
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied'
+    });
+
     // Vérifie si l'utilisateur a déjà accepté les cookies
     const cookiesAccepted = localStorage.getItem("cookiesAccepted");
     if (!cookiesAccepted) {
