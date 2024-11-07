@@ -24,6 +24,7 @@ const Footer = () => {
         </li>
       </ul>
       <p>Powered by Serve and Code</p>
+      <p><a href="/privacy-policy">Privacy Policy</a></p>
     </footer>
   );
 };

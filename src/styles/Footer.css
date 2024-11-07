@@ -6,7 +6,7 @@
 }
 
 .footer p {
-  margin: 0;
+  margin: 5px 0;
   font-size: 14px;
 }
 
@@ -32,6 +32,18 @@
 .footer ul li a:hover {
   color: #ddd;
 }
+
+
+.footer a {
+  color: var(--primary-white);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: var(--hover-orange);
+}
+
 
 /* Styles pour la version responsive (rien à changer, les icônes resteront alignées à l'horizontale) */
 @media (max-width: 768px) {
