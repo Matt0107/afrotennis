@@ -1,4 +1,4 @@
-/* Style global pour la bannière de consentement */
+/* Bannière de consentement */
 .consent-banner {
   position: fixed;
   bottom: 0;
@@ -6,28 +6,41 @@
   background-color: var(--primary-black);
   color: var(--primary-white);
   padding: 15px;
+  text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 1000;
 }
 
-.consent-content {
-  max-width: 800px;
-  text-align: center;
+@media (max-width: 768px) {
+  .consent-banner {
+    /* En mode popup */
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    bottom: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
 }
 
-/* Style pour le texte et le lien de la bannière */
+/* Texte et lien de la politique de confidentialité */
 .consent-banner p {
   margin: 0;
   font-size: 1rem;
   color: var(--primary-white);
   line-height: 1.5;
+  margin-bottom: 15px;
+  max-width: 90%;
 }
 
 .privacy-link {
   color: var(--primary-orange);
-  margin-left: 8px;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -36,12 +49,10 @@
   color: var(--hover-orange);
 }
 
-/* Bouton d'acceptation et de rejet */
-.button-group {
+/* Boutons */
+.button-container {
   display: flex;
-  justify-content: center;
   gap: 10px;
-  margin-top: 10px;
 }
 
 .accept-button {
@@ -53,26 +64,15 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.accept-button:hover {
-  background-color: var(--hover-orange);
 }
 
 .reject-button {
-  background-color: transparent; /* Fond transparent */
-  color: var(--primary-white); /* Couleur du texte */
+  background-color: transparent;
+  color: var(--primary-white);
   font-size: 1rem;
   font-weight: bold;
   padding: 8px 16px;
-  border: 2px solid var(--primary-white); /* Bordure blanche */
+  border: 2px solid var(--primary-white);
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Transition sur fond et couleur */
-}
-
-.reject-button:hover {
-  background-color: var(--primary-white); /* Fond blanc au survol */
-  color: var(--primary-black); /* Texte en noir au survol */
 }
