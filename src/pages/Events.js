@@ -43,17 +43,10 @@ const Events = () => {
           </thead>
           <tbody>
             <tr>
-              <td>Brazzaville</td>
-              <td>ATP Challenger 50 / Clay</td> {/* Type de tournoi */}
-              <td>Brazzaville, Congo Republic</td>
-              <td>28th October - 3rd November 2024</td>
-
-            </tr>
-            <tr>
               <td>Kigali 1</td>
               <td>ATP Challenger 50 / Clay</td> {/* Type de tournoi */}
               <td>Kigali, Rwanda</td>
-              <td>24th - 1st March 2025</td>
+              <td>24th February - 1st March 2025</td>
 
             </tr>
             <tr>
