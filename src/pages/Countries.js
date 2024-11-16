@@ -4,7 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import '../styles/Countries.css';
 import federationsData from '../assets/data/federations.json'; // Importer les données
 import { useNavigate } from 'react-router-dom'; // Utilisation de useNavigate pour la redirection
-import { FaFacebook, FaInstagram, FaTwitter, FaGlobe } from 'react-icons/fa'; // Import des icônes
+import { FaFacebook, FaInstagram, FaTwitter, FaGlobeAfrica } from 'react-icons/fa'; // Import des icônes
 
 const Countries = () => {
   const [federations, setFederations] = useState([]);
@@ -54,7 +54,7 @@ const handleWebsiteClick = (website, e) => {
                 <div className="social-links">
                   {country.website && (
                     <a href="/" onClick={(e) => handleWebsiteClick(country.website, e)} target="_blank" rel="noopener noreferrer">
-                      <FaGlobe size={24} /> {/* Icône pour le site web */}
+                      <FaGlobeAfrica size={24} /> {/* Icône pour le site web */}
                     </a>
                   )}
                   {country.socialMedia?.facebook && (
