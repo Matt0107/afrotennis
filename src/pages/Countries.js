@@ -3,13 +3,11 @@ import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import '../styles/Countries.css';
 import federationsData from '../assets/data/federations.json'; // Importer les données
-import { useNavigate } from 'react-router-dom'; // Utilisation de useNavigate pour la redirection
 import { FaFacebook, FaInstagram, FaTwitter, FaGlobeAfrica } from 'react-icons/fa'; // Import des icônes
 
 const Countries = () => {
   const [federations, setFederations] = useState([]);
   const [hoveredCountry, setHoveredCountry] = useState(null);
-  const navigate = useNavigate(); // Utilisation de useNavigate pour la redirection
 
   useEffect(() => {
     setFederations(federationsData.countries); // Charger les données depuis le fichier JSON
