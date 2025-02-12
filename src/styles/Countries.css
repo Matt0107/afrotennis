@@ -1,7 +1,17 @@
+/* Empêche le débordement horizontal et vertical */
+html, body {
+    overflow-x: hidden; 
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
 .countries-page { 
     padding: 20px;
-    margin: 20px auto;
-    width: 100%;
+    margin: 0 auto; /* Centrage sans marge excessive */
+    max-width: 100vw;
+    overflow: hidden; /* Empêche tout débordement */
 }
   
 .title-country {
@@ -13,9 +23,17 @@
   
 /* Styles pour la carte */
 .leaflet-container {
-    width: 100%;
+    max-width: 100vw; /* Empêche tout débordement */
     height: 500px;
     background-color: #f4f4f4;
+}
+
+/* Ajustement pour les écrans mobiles */
+@media screen and (max-width: 768px) {
+    .leaflet-container {
+        width: 90vw !important;  /* Ajustement sur mobile */
+        height: 350px !important; /* Réduction de la hauteur */
+    }
 }
   
 /* Styles pour le Popup */
