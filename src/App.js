@@ -11,6 +11,7 @@ import Progress from './pages/Progress';
 import Podcast from './pages/Podcast';
 import Events from './pages/Events';
 import Contact from './pages/Contact';
+import Initiatives from './pages/Initiatives';
 import ContactSuccess from './pages/ContactSuccess';
 import Privacy from './pages/Privacy';
 import ConsentBanner from './components/ConsentBanner';
@@ -30,6 +31,7 @@ function App() {
             <Route path="/podcasts" element={<Podcast />} />
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/initiatives" element={<Initiatives />} />
             <Route path="/contact-success" element={<ContactSuccess />} />
             <Route path="/privacy-policy" element={<Privacy />} />
           </Routes>

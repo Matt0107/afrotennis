@@ -1,0 +1,92 @@
+/* src/styles/Initiatives.css */
+
+.initiatives-page {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .initiatives-title {
+    font-size: 2.5rem;
+    color: var(--primary-black);
+    margin-bottom: 30px;
+  }
+  
+  .initiatives-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .initiative-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .initiative-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .initiative-title {
+    font-size: 1.5rem;
+    color: var(--primary-black);
+    margin: 15px 0;
+  }
+  
+  .initiative-description {
+    font-size: 1rem;
+    color: var(--primary-black);
+    margin-bottom: 10px;
+  }
+  
+  .initiative-status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .initiative-status.completed {
+    background-color: var(--primary-green);
+    color: #fff;
+  }
+  
+  .initiative-status.ongoing {
+    background-color: var(--primary-orange);
+    color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .initiatives-page {
+      padding: 20px 10px;
+    }
+  
+    .initiatives-title {
+      font-size: 2rem;
+    }
+  
+    .initiatives-list {
+      gap: 10px;
+    }
+  
+    .initiative-card {
+      max-width: 100%;
+    }
+  
+    .initiative-title {
+      font-size: 1.2rem;
+    }
+  
+    .initiative-description {
+      font-size: 0.9rem;
+    }
+  }
+  

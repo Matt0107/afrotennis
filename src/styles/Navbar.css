@@ -28,6 +28,10 @@ nav.mobile {
   z-index: 1000; /* Adjust z-index to ensure visibility */
 }
 
+nav.mobile.open{
+  z-index: 1001;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   .hamburger {
