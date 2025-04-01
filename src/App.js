@@ -8,7 +8,7 @@ import About from './pages/About';
 import Countries from './pages/Countries';
 import Country from './pages/Country';
 import Progress from './pages/Progress';
-import Podcast from './pages/Podcast';
+import MediaCenter from './pages/MediaCenter';
 import Events from './pages/Events';
 import Contact from './pages/Contact';
 import Initiatives from './pages/Initiatives';
@@ -28,7 +28,7 @@ function App() {
             <Route path="/countries" element={<Countries />} />
             <Route path="/countries/:countryName" element={<Country />} />
             <Route path="/progress" element={<Progress />} />
-            <Route path="/podcasts" element={<Podcast />} />
+            <Route path="/mediacenter" element={<MediaCenter />} />
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/initiatives" element={<Initiatives />} />

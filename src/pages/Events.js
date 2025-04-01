@@ -43,20 +43,6 @@ const Events = () => {
           </thead>
           <tbody>
             <tr>
-              <td>Kigali 1</td>
-              <td>ATP Challenger 50 / Clay</td> {/* Type de tournoi */}
-              <td>Kigali, Rwanda</td>
-              <td>24th February - 1st March 2025</td>
-
-            </tr>
-            <tr>
-              <td>Kigali 2</td>
-              <td>ATP Challenger 50 / Clay</td> {/* Type de tournoi */}
-              <td>Kigali, Rwanda</td>
-              <td>2nd - 8th March 2025</td>
-
-            </tr>
-            <tr>
               <td>Grand Prix Hassan II</td>
               <td>ATP 250 / Clay</td> {/* Type de tournoi */}
               <td>Marrakech, Morocco</td>
